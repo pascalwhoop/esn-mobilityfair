@@ -7,7 +7,7 @@
 <ion-header>
 
     <ion-navbar>
-        <ion-title>Exhibitors</ion-title>
+        <ion-title>Exhibitors ({{filteredExhibitors?.length}})</ion-title>
     </ion-navbar>
 
 </ion-header>
@@ -15,20 +15,24 @@
 
 <ion-content>
     <ion-searchbar (ionInput)="filterItems($event)"></ion-searchbar>
-    <div *ngFor="let exhibitor of exhibitors; let i = index">
+    <div *ngFor="let exhibitor of filteredExhibitors; let i = index">
         <ion-row *ngIf="i%4==0">
             <ion-col>
-                <exhibitor-card [exhibitor]="exhibitors[i]"></exhibitor-card>
+                <exhibitor-card [exhibitor]="filteredExhibitors[i]"></exhibitor-card>
             </ion-col>
             <ion-col>
-                <exhibitor-card [exhibitor]="exhibitors[i+1]"></exhibitor-card>
+                <exhibitor-card [exhibitor]="filteredExhibitors[i+1]"></exhibitor-card>
             </ion-col>
             <ion-col>
-                <exhibitor-card [exhibitor]="exhibitors[i+2]"></exhibitor-card>
+                <exhibitor-card [exhibitor]="filteredExhibitors[i+2]"></exhibitor-card>
             </ion-col>
             <ion-col>
-                <exhibitor-card [exhibitor]="exhibitors[i+3]"></exhibitor-card>
+                <exhibitor-card [exhibitor]="filteredExhibitors[i+3]"></exhibitor-card>
             </ion-col>
         </ion-row>
     </div>
+
+    <ion-infinite-scroll (ionInfinite)="doInfinite($event)" *ngIf="!filtering">
+        <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
 </ion-content>

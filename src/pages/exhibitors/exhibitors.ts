@@ -1,7 +1,6 @@
 import {Component} from "@angular/core";
 import {NavController, NavParams} from "ionic-angular";
 import {Http} from "@angular/http";
-import {Observable} from "rxjs";
 import "rxjs/Rx";
 import {IExhibitor} from "../../model/Exhibitor";
 
@@ -17,22 +16,26 @@ import {IExhibitor} from "../../model/Exhibitor";
 })
 export class ExhibitorsPage {
 
-    exhibitors: IExhibitor[];
-    _allExhibitors: IExhibitor[];
+    filteredExhibitors: Array<IExhibitor>;
+    _allExhibitors: Array<IExhibitor>;
+
+    filtering = false;
+    pageSize = 30;
 
 
     constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
-        http.get('/assets/testdata/sections.json')
+        http.get('assets/testdata/sections.json')
             .share()
             .map(response => response.json() as IExhibitor[])
             .subscribe(exhibitors => {
                 //sort items by description property
 
-                this._allExhibitors= exhibitors.sort((a, b)=> {
+                this._allExhibitors = exhibitors.sort((a, b)=> {
                     return (a.name < b.name ? -1 : (a.name > b.name ? 1 : 0));
                 });
 
-                this.exhibitors = this.getFilteredItems();
+
+                this.filteredExhibitors = this._allExhibitors.slice(0, this.pageSize);
             });
     }
 
@@ -40,7 +43,8 @@ export class ExhibitorsPage {
     filterItems(ev: any) {
         // set val to the value of the searchbar
         let query = ev.target.value;
-        this.exhibitors = this.getFilteredItems(query);
+        this.filtering = query.length != 0; // flip filtering, needed for infinite scroll
+        this.filteredExhibitors = this.getFilteredItems(query);
     }
 
     private getFilteredItems(query?: string) {
@@ -53,8 +57,21 @@ export class ExhibitorsPage {
         }
         //but just return a copy of the array
         else {
-            return this._allExhibitors.slice();
+            return this._allExhibitors.slice(0, this.pageSize);
         }
+    }
+
+    doInfinite(infiniteScroll) {
+
+
+        var alreadyVis = this.filteredExhibitors.length;
+        //only if we haven't reached the bottom yet.
+        if(alreadyVis != this._allExhibitors.length) {
+            this.filteredExhibitors = this.filteredExhibitors.concat(this._allExhibitors.slice(alreadyVis, alreadyVis + this.pageSize));
+        }
+        console.log('executed infinite scroll');
+        infiniteScroll.complete();
+
     }
 
 }
