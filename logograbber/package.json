@@ -1,0 +1,9 @@
+{
+  "name": "esn-logo-grabber",
+  "author": "pascalwhoop",
+  "homepage": "github.com/pascalwhoop",
+  "dependencies": {
+    "crawler": "^1.0.1"
+  },
+  "description": "MobilityFair: An Ionic project"
+}
