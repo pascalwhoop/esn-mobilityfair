@@ -1,6 +1,5 @@
 // http://ionicframework.com/docs/v2/theming/
 
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -15,11 +14,60 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-
-.toolbar-title-md{
+.toolbar-title-md {
   text-align: center;
 }
-body{
+
+body {
   user-select: initial;
   -webkit-user-select: initial;
 }
+
+.scroll-content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//==== facebook button
+$fb-white: #fff;
+$fb-blue: #3b5998;
+$fb-blue-dark: #2d4373;
+$fb-blue-extra-dark: #23345a;
+$fb-border: rgba(0, 0, 0, 0.2);
+
+.btn-facebook {
+  color: $fb-white;
+  background-color: $fb-blue;
+  border-color: $fb-border;
+
+  &:focus {
+    color: $fb-white;
+    background-color: $fb-blue-dark;
+    border-color: $fb-border;
+  }
+
+  &:hover {
+    color: $fb-white;
+    background-color: $fb-blue-dark;
+    border-color: $fb-border;
+  }
+
+  &:active, &.activated {
+    color: $fb-white;
+    background-color: $fb-blue-dark;
+    border-color: $fb-border;
+  }
+
+  &:active:hover {
+    color: $fb-white;
+    background-color: $fb-blue-extra-dark;
+    border-color: $fb-border
+  }
+
+  &[disabled] {
+    background-color: $fb-blue;
+    border-color: $fb-border
+  }
+}
+

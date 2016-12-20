@@ -20,6 +20,7 @@ export class ExhibitorsPage {
     _allExhibitors: Array<IExhibitor>;
 
     filtering = false;
+    typeFilter = 'all';
     pageSize = 30;
 
 
@@ -39,11 +40,14 @@ export class ExhibitorsPage {
             });
     }
 
+    isFiltered(exhibitor: IExhibitor){
+        return this.typeFilter == 'all' || exhibitor._id && this.typeFilter == 'esn' || !exhibitor._id && this.typeFilter == 'partners'
+    }
 
     filterItems(ev: any) {
         // set val to the value of the searchbar
         let query = ev.target.value;
-        this.filtering = query.length != 0; // flip filtering, needed for infinite scroll
+        this.filtering = query && query.length != 0; // flip filtering, needed for infinite scroll
         this.filteredExhibitors = this.getFilteredItems(query);
     }
 
