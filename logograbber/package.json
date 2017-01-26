@@ -3,7 +3,8 @@
   "author": "pascalwhoop",
   "homepage": "github.com/pascalwhoop",
   "dependencies": {
-    "crawler": "^1.0.1"
+    "crawler": "^1.0.1",
+    "request": "^2.79.0"
   },
   "description": "MobilityFair: An Ionic project"
 }
