@@ -1,0 +1,158 @@
+{
+  "select_language": "Bitte wählen Sie eine Sprache",
+  "waitingForPickupHeader": "Nimm mich in die Hand!",
+
+  "Help": "Hilfe",
+  "areYouSure": "Sind sie sicher?",
+  "OK": "OK",
+  "cancel": "Abbrechen",
+  "statistics": "Statistik",
+  "continue": "Weiter",
+  "currentTime": "Aktuelle Zeit",
+
+  "startMenuEntry": "Start",
+  "startInstruction": "Willkommen zum Daimler Produktionsforum und dem Industrie 4.0 Showroom. Bitte geben Sie Ihren Namen und Ihre Körpergröße ein. Anschließend wird der Moderator Sie gemeinsam durch die intelligente Fabrik führen.",
+  "startfirstNameLabel": "Vorname",
+  "startlastNameLabel": "Nachname",
+  "startfirstNamePlaceholder": "Nico",
+  "startlastNamePlaceholder": "Rosberg",
+  "startNameLabel": "Name:",
+  "startHeightLabel": "Körpergröße (in cm):",
+  "startReadyButton": "Bereit!",
+  "startLanguageLabel": "Sprache",
+
+  "startStage_wrongHeightWarning": "Bitte geben Sie eine Größe zwischen 120cm and 220cm ein.",
+  "startStage_nameNumberWarning": "Bitte geben Sie keine Ziffern im Namen ein.",
+  "startStage_firstNameTooShortWarning": "Der Vorname ist zu kurz.",
+  "startStage_lastNameTooShortWarning": "Der Nachname ist zu kurz.",
+
+
+  "goToNextStage_Header": "Sie haben diesen Abschnitt abgeschlossen.",
+  "goToNextStage_textBody": "Bitte gehen Sie zum nächsten Abschnitt, um den nächsten Teil der Vorführung zu sehen.",
+
+  "mondayMorningTitle": "Ihr Arbeitstag beginnt.",
+  "mondayMorning_Header": "Es ist Montag morgen. Sie sind gerade in Ihr Auto eingestiegen und sind auf dem Weg in die Fabrik.",
+  "mondayMorningTextBody": "Bitte halten Sie Ihr Tablet vor sich und fahren zum Parkplatz auf der anderen Seite des Wassers.",
+
+  "streetMenuEntry": "On the road",
+  "streetPage_notification_parkingSuccess": "Sie haben Ihren Parkplatz erreicht!",
+  "streetPage_button_parkCar": "Parkplatz",
+
+  "streetPage_nextStage_title": "Auf dem Weg zum Shopfloor",
+  "streetPage_nextStage_header": "Auf dem Weg zum Shopfloor",
+  "streetPage_parkingLot": "Bitte fahren Sie zu Parkplatz ${spot}",
+  "streetPage_nextStage_textBody1": "Vor Ihnen liegt ein langer Arbeitstag. Sicherheit ist sehr wichtig.",
+  "streetPage_nextStage_textBody2": "Bitte gehen Sie in den Umkleidebereich und legen Sie Ihre Sicherheitskleidung an.",
+  "streetPage_nextStage_textBody3": "Nehmen Sie eine der Mercedes-Kappen und setzen sie auf.",
+  "streetPage_nextStage_textBody4": "Auf dem Weg in die Fabrikhalle müssen Sie durch die Sicherheitsschleuse gehen.",
+  "streetPage_windscreen_help": "Bitte fahren Sie zu Parklatz ${spot} und bleiben Sie dort, wenn das grüne Häkchen anzeigt wird.",
+
+
+
+  "securityMenuEntry": "Security-Check",
+  "securityStage_Header": "Security-Check",
+  "securityStage_workingTime": "In der Sicherheitsschleuse wird sichergestellt, dass Sie Ihre Schutzkleidung tragen.",
+  "securityStage_start": "Gehen Sie langsam durch die Sicherheitsschleuse, wenn Sie Ihre Sicherheitskleidung angelegt haben.",
+  "securityStage_checklist": "Security-Checklist",
+  "__securityStage_oneAtATimeAutonomously": "Bitte gehen Sie zur Sicherheitsschleuse. In der Schleuse darf immer nur eine Person stehen.",
+  "securityStage_youAreTooMany": "Bitte räumen Sie die Sicherheitsschleuse und gehen Sie anschließend erneut durch. Bitte achten Sie darauf, dass immer nur eine Person in der Schleuse stehen darf.",
+  "securityStage_equipment": "Sicherheitskleidung (Kappe / Helm)",
+  "securityStage_heightValidation": "Höhenmessung",
+  "securityStage_identitycheck": "Sicherheitsüberprüfung (RFID Chip)",
+  "securityStage_pictureTaken": "Foto",
+  "securityStage_cappieDetected": "Schutzkleidung erkannt",
+  "securityStage_statePrefix": "Status: ",
+  "securityStage_stateBeingChecked": "Currently being checked",
+  "securityStage_stateWaiting": "Waiting",
+  "securityStage_stateCompleted": "Erledigt!",
+  "securityStage_stateInvalidPresence": "Fehler!",
+  "securityStage_checkCompleteNotify": "Sie haben alle Kontrollen erfolgreich passiert. Bitte gehen Sie weiter in die Fabrikhalle.",
+
+  "workStage_safety_alert_header": "Sie haben die Sicherheitsüberprüfung nicht bestanden.",
+  "workStage_safetyWarning": "Bitte gehen Sie trotzdem weiter zum Arbeitsbereich, um mit der Präsentation fortzufahren.",
+  "S3_SECURITY_NOT_OK": "Bitte gehen Sie zurück zur Umkleide und legen Sie die erforderliche Sicherheitskleidung an.",
+  "S3_SECURITY_CHECK_INVALID_PRESENCE": "Zu viele Personen in der Sicherheitsschleuse. Bitte räumen Sie die Sicherheitsschleuse und gehen Sie erneut durch. Achten Sie dabei darauf, dass immer nur ein Mitarbeiter gleichzeitig in der Sicherheitsschleuse sein darf.",
+  "S3_SECURITY_CHECK_WARNING": "In der Sicherheitsschleuse ist ein Fehler aufgetreten.",
+  "S3_SECURITY_CHECK_VALID_PRESENCE": "Alles in Ordnung!",
+
+  "workMenuEntry": "Produktionshalle",
+  "workHeader": "Produktionshalle",
+  "workStage_IntroductionHeader": "Willkommen auf dem Shopfloor.",
+  "workStage_IntroductionBody":  "Diese Station simuliert einige typische Aufgaben. Das System wählt den größten und den kleinsten Kollegen, sowie einen Kollegen, der Aufgaben eines Instandhalters erledigen wird, aus.",
+  "workStage_introductionItem1": "Der Größte Ihrer Gruppe wird beginnen. Die Montagevorrichtung fährt den Motor automatisch auf die richtige Höhe.",
+  "workStage_introductionItem2": "Nach erfolgter Montage führt der Instandhalter seine Aufgabe aus.",
+  "workStage_introductionItem3": "Anschließend folgt der Kleinste Ihrer Gruppe. Die Montagevorrichtung fährt den Motor automatisch auf die richtige Höhe.",
+  "workStage_introductionItem4": "Nach erfolgter Montage wird das Arbeitsergebnis durch einen Qualitätsmitarbeiter geprüft.",
+  "workStage_introductionItem5": "",
+
+  "workStage_role": "Rolle",
+  "workStage_role_OBSERVER": "Beobachter",
+  "workStage_role_TALLEST": "Arbeiter",
+  "workStage_role_SHORTEST": "Arbeiter",
+  "workStage_role_MAINTENANCE": "Qualitätssicherung",
+  "workStage_observerInfo1" : "Sie haben Ihren Arbeitsbereich erreicht und sind bereit, Ihre Aufgaben zu erledigen.",
+  "workStage_observerInfo2" : "Vorher müssen Sie allerdings noch auf Ihre Kollegen warten.",
+  "workStage_observerInfo3" : "Bitte setzen Sie sich solange.",
+
+  "workStage_observer_header":"Momentan arbeitet einer Ihrer Kollegen an der Montagevorrichtung.",
+  "workStage_observer_text":"Enjoy the show!",
+
+  "workStage_activate_worker1" : "Bitte kommen Sie zum Montagevorrichtung und folgen Sie den Anweisungen auf dem Tablet.",
+  "workStage_activate_worker2" : "Bitte markieren Sie nach jeder Aufgabe auf dem Tablet die Aufgabe als erledigt.",
+  "workStage_activate_worker3" : "Wenn alle Aufgaben erledigt sind, kehren Sie zum Sitzbereich zurück.",
+
+
+  "workStage_shortest_tasks_header":"Generator 180 A: A0009068802",
+  "workStage_shortest_task_1": "Nehmen Sie die Komponente vom Träger",
+  "workStage_shortest_task_2": "Legen Sie die Komponente in die richtige Position zum Zusammenbau",
+  "workStage_shortest_task_3": "Nehmen Sie den tragbaren Akkuschrauber",
+  "workStage_shortest_task_4": "Ziehen Sie die vier Schrauben mit dem gleichen Drehmoment fest",
+  "workStage_shortest_task_5": "Legen Sie den Akkuschrauber zurück auf den Arbeitstisch",
+  "workStage_shortest_task_confirm_label": "Montage beendet",
+
+  "workStage_tallest_tasks_header":"Klimaanlagenkompressor HH9: A0022307211",
+  "workStage_tallest_task_1": "Nehmen Sie die Komponente vom Träger",
+  "workStage_tallest_task_2": "Nehmen Sie den tragbaren Akkuschrauber",
+  "workStage_tallest_task_3": "Halten Sie die Komponente an die Zielposition",
+  "workStage_tallest_task_4": "Schrauben Sie die Schraube oben rechts fest, um die Komponente zu fixieren",
+  "workStage_tallest_task_5": "Ziehen Sie die beiden weiteren Schrauben mit dem gleichen Drehmoment fest",
+  "workStage_tallest_task_6": "Legen Sie den Akkuschrauber zurück auf den Arbeitstisch",
+  "workStage_tallest_task_confirm_label": "Montage beendet",
+
+  "workStage_maintenance_tasks_header":"Defekten Akkuschrauber ersetzen",
+  "workStage_maintenance_task_1": "Untersuchen Sie das Ticket #15423, das einen defekten Akkuschrauber meldet",
+  "workStage_maintenance_task_2": "Ersetzen Sie den Akkuschrauber, falls er defekt ist",
+  "workStage_maintenance_task_3": "Legen Sie das Ersatzgerät an der vorgesehenen Stelle ab.",
+  "workStage_maintenance_task_confirm_label": "Wartungsarbeiten erledigt",
+
+
+
+  "eLearningMenuEntry": "E-Learning",
+
+
+  "stageCompletedTitle": "Stage completed",
+  "projectorPage_activeUserLabel": "Aktiver User",
+  "projectorPage_activeUserSizeLabel": "Größe",
+  "projectorPage_activeUserSizeMeasuredLabel": "Größe gemessen",
+  "projectorPage_activeUserLanguageLabel": "Sprache",
+  "projectorPage_activeUserFactoryEnterLabel": "Fabrik betreten um",
+  "projectorPage_timeWorked": "benötigte Zeit",
+
+  "webService_connection_lost": "Verbindung zum Server verloren",
+
+  "hololensStage_header": "Hololens",
+  "hololensStage_1": "Nachdem Sie fertig sind, warten Sie noch auf Ihren Chef, um Ihre Arbeit zu bewerten.",
+  "hololensStage_2": "Bitte bleiben Sie sitzen und schauen Sie Ihrem Chef zu.",
+
+  "elearningStage_header": "E-Learning",
+  "elearningStage_1": "Am Ende Ihrer Schicht möchten Sie gerne heimgehen.",
+  "elearningStage_2": "Andererseits sind Sie ein begeisterter Mitarbeiter und wollen Ihre Skills verbessern. Zum Glück gibt es das E-Learning auf dem Tablet!",
+  "elearningStage_3": "Bitte kehren Sie in den Eingangsbereich zurück. Dort stellen wir Ihnen das E-Learning auf einem Tablet vor.",
+
+  "statisticsStage_header": "Statistiken",
+  "statisticsStage_1": "Sie haben Ihren E-Learning-Kurs erfolgreich absolviert. Ein entspannter Abend wartet auf Sie.",
+  "statisticsStage_2": "Leider kam gerade eine E-Mail Ihres Chef, der Ihnen Feedback über Ihre heutigen Leistungen gibt. Diese Mail können Sie nicht ignorieren!",
+  "statisticsStage_3": "Bitte legen Sie Ihr Tablet auf den Tisch und gehen Sie zum großen Monitor vor Ihnen."
+
+
+}
