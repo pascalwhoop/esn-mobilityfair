@@ -25,6 +25,7 @@
   <p>Name: {{exhibitor.name}}</p>
   <p>Address: {{exhibitor.address}}</p>
   <p>City: {{exhibitor.city}}</p>
+  <p *ngIf="exhibitor.url">Website: <a href="{{exhibitor.url}}" target="_blank">Link</a></p>
   <p></p>
 
 </ion-content>

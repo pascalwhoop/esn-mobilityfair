@@ -33,7 +33,7 @@ function saveImg(imgUrl, fileName) {
 
 
 var c = new Crawler({
-    maxConnections: 10,
+    maxConnections: 50,
     // This will be called for each crawled page
     callback: function (error, res, done) {
         if (error) {
@@ -50,7 +50,11 @@ var c = new Crawler({
             //a lean implementation of core jQuery designed specifically for the server
             console.log('------------------------');
             var section = findByUrl(res.request.headers.referer ? res.request.headers.referer : res.request.host);
-            if(!section) return;
+            if(!section) {
+                done();
+                errorSections.push(res.request.host);
+                return;
+            };
             console.log('fetching Section : ' + section.code);
             console.log('URL : ' + res.request.href);
 
@@ -79,6 +83,7 @@ request.get(sectionsAPI, (err,res, body) =>{
 
     var urls = getUrls(sections);
     totalCounter = urls.length;
+
     c.queue(urls);
 });
 
@@ -96,7 +101,26 @@ function getUrls(sections){
         var url = item.url;
         var regex = new RegExp(expression);
         var match = url.match(regex);
-        if(match) return match[0];
+        if(match) {
+            url = match[0];
+            //remove www
+            var wwwI = url.indexOf('www.');
+            if(wwwI != -1){
+                url = url.slice(wwwI+4)
+            }
+            //remove https
+            var httpsI = url.indexOf('https://');
+            if(httpsI != -1){
+                url = url.slice(httpsI+8)
+            }
+            //remove https
+            var httpI = url.indexOf('http://');
+            if(httpI != -1){
+                url = url.slice(httpI+7)
+            }
+
+            return 'http://' + url;
+        }
     });
     return urls.filter(url => url!=null)
 }

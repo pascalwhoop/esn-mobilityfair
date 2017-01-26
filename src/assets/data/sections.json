@@ -25,7 +25,7 @@
   },
   {
     "code": "AT-KLAG-ESN",
-    "url": "www.entree.at",
+    "url": "http://www.entree.at",
     "name": "ESN Klagenfurt",
     "country": "AT",
     "address": "Entrée - ESN Klagenfurt c/o ÖH Klagenfurt, Referat für Internationale Angelegenheiten Universitätsstraße 65 - 67 9020",
@@ -105,7 +105,7 @@
   },
   {
     "code": "AT-WIEN-TUN",
-    "url": "www.buddynetwork.at",
+    "url": "http://www.buddynetwork.at",
     "name": "ESN Buddynetwork TU Wien",
     "country": "AT",
     "address": "ESN Buddynetwork TU Wien Wiedner Hauptstrasse 8-10 1040 Wien 1040",
@@ -129,7 +129,7 @@
   },
   {
     "code": "AT-WIEN-WKW",
-    "url": "www.fhwien-wkw.esnaustria.org/",
+    "url": "http://www.fhwien-wkw.esnaustria.org/",
     "name": "ESN FH Wien WKW",
     "country": "AT",
     "address": "ESN FH Wien WKW 1080",
@@ -217,7 +217,7 @@
   },
   {
     "code": "BE-LEUV-ESN",
-    "url": "www.esnleuven.be",
+    "url": "http://www.esnleuven.be",
     "name": "ESN Leuven vzw",
     "country": "BE",
     "address": "ESN Andreas Vesaliusstraat 44 3000",
@@ -489,7 +489,7 @@
   },
   {
     "code": "CY-NICO-ESA",
-    "url": "www.esncy.org",
+    "url": "http://www.esncy.org",
     "name": "ESN Nicosia",
     "country": "CY",
     "address": "isminis 6 dasoupoli 2029",
@@ -505,7 +505,7 @@
   },
   {
     "code": "CZ-BRNO-VUT",
-    "url": "www.isc.vutbr.cz",
+    "url": "http://www.isc.vutbr.cz",
     "name": "ISC VUT Brno",
     "country": "CZ",
     "address": "International Students Club VUT Faculty of Business and Management Kolejní 2906/4 612 00",
@@ -513,7 +513,7 @@
   },
   {
     "code": "CZ-CBUD-VST",
-    "url": "www.esnvste.cz",
+    "url": "http://www.esnvste.cz",
     "name": "ESN VSTE Budweis",
     "country": "CZ",
     "address": "ESN VSTE Budweis Okruzni 517/10 37701",
@@ -521,7 +521,7 @@
   },
   {
     "code": "CZ-HRKR-ESN",
-    "url": "www.buddyhk.cz",
+    "url": "http://www.buddyhk.cz",
     "name": "ESN BUDDY SYSTEM HK ",
     "country": "CZ",
     "address": "ESN BUDDY SYSTEM HK z.s. Hradecká 1249 500 03 50003",
@@ -561,7 +561,7 @@
   },
   {
     "code": "CZ-OSTR-VSB",
-    "url": "www.esnvsb.cz",
+    "url": "http://www.esnvsb.cz",
     "name": "ESN VŠB-TU Ostrava",
     "country": "CZ",
     "address": "ESN VSB-TUO Studentská 1770/1 708 00",
@@ -585,7 +585,7 @@
   },
   {
     "code": "CZ-PRAG-CTU",
-    "url": "www.isc.cvut.cz",
+    "url": "http://www.isc.cvut.cz",
     "name": "ISC CTU in Prague",
     "country": "CZ",
     "address": "ISC CTU in Prague Thákurova 550/1 160 00",
@@ -601,7 +601,7 @@
   },
   {
     "code": "CZ-PRAG-CUN",
-    "url": "www.ic-cuni.cz",
+    "url": "http://www.ic-cuni.cz",
     "name": "IC CUNI",
     "country": "CZ",
     "address": "Vorsilska 144/1 1 11643",
@@ -625,7 +625,7 @@
   },
   {
     "code": "CZ-USTI-ESN",
-    "url": "www.esn-usti.cz",
+    "url": "http://www.esn-usti.cz",
     "name": "ESN Usti",
     "country": "CZ",
     "address": "Erasmus Student Network , z.s. Klíšská 979/129 400 01",
@@ -633,7 +633,7 @@
   },
   {
     "code": "CZ-ZLIN-ESN",
-    "url": "www.buddysystem.utb.cz",
+    "url": "http://www.buddysystem.utb.cz",
     "name": "Buddy System Zlin",
     "country": "CZ",
     "address": "Buddy System Zlin 76001",
@@ -673,7 +673,7 @@
   },
   {
     "code": "DE-BONN-ESN",
-    "url": "www.esn-bonn.de",
+    "url": "http://www.esn-bonn.de",
     "name": "ESN Bonn",
     "country": "DE",
     "address": "ESN Bonn Poppelsdorfer Allee 53 53115",
@@ -721,7 +721,7 @@
   },
   {
     "code": "DE-DUES-ESN",
-    "url": "www.duesseldorf.esn-germany.de",
+    "url": "http://www.duesseldorf.esn-germany.de",
     "name": "ESN Duesseldorf",
     "country": "DE",
     "address": "Erasmus Student Network e.V. Heinrich-Heine-Universität c/o International Office Gebäude 21.02 40204",
@@ -785,7 +785,7 @@
   },
   {
     "code": "DE-HEID-ESN",
-    "url": "www.esn-heidelberg.de",
+    "url": "http://www.esn-heidelberg.de",
     "name": "ESN Heidelberg",
     "country": "DE",
     "address": "ESN Im Neuenheimer Feld 267 69120",
@@ -817,7 +817,7 @@
   },
   {
     "code": "DE-KAIS-ESN",
-    "url": "www.step.wiwi.uni-kl.de",
+    "url": "http://www.step.wiwi.uni-kl.de",
     "name": "ESN Kaiserslautern",
     "country": "DE",
     "address": "ESN STEP Fachbereich Wirtschaftswissenschaften, International Office Technische Universität Gottlieb-Daimler-Straße 42 / Raum 140 67663",
@@ -825,7 +825,7 @@
   },
   {
     "code": "DE-KARL-AKE",
-    "url": "www.ak-erasmus.de",
+    "url": "http://www.ak-erasmus.de",
     "name": "ESN AKE Karlsruhe",
     "country": "DE",
     "address": "AK Erasmus Geb. 20.13, R. 007 Kaiserstr. 12 76131",
@@ -865,7 +865,7 @@
   },
   {
     "code": "DE-MUNI-TUM",
-    "url": "www.international.tum.de/tumi",
+    "url": "http://www.international.tum.de/tumi",
     "name": "ESN TUMi München",
     "country": "DE",
     "address": "ESN TUMi TUM International Center Arcisstr. 21 80333",
@@ -881,7 +881,7 @@
   },
   {
     "code": "DE-ROST-ESN",
-    "url": "www.lei-rostock.org",
+    "url": "http://www.lei-rostock.org",
     "name": "ESN LEI Rostock",
     "country": "DE",
     "address": "ESN LEI c/o International House (RIH) Kröpeliner Straße 29 18051",
@@ -921,7 +921,7 @@
   },
   {
     "code": "DK-LYNG-DTU",
-    "url": "www.esn-dtu.dk/",
+    "url": "http://www.esn-dtu.dk/",
     "name": "ESN DTU",
     "country": "DK",
     "address": "Erasmus Student Network DTU c/o Postboks 116 Lyngby Hovedgade 80 2800",
@@ -929,7 +929,7 @@
   },
   {
     "code": "DK-ODEN-ESN",
-    "url": "www.esnodense.dk",
+    "url": "http://www.esnodense.dk",
     "name": "ESN Odense",
     "country": "DK",
     "address": "ESN Campusvej 55 5230",
@@ -969,7 +969,7 @@
   },
   {
     "code": "ES-ALCA-ESN",
-    "url": "www,esn-uah.org",
+    "url": "http://www,esn-uah.org",
     "name": "ESN Alcala",
     "country": "ES",
     "address": "ESN Alcala calle juan de cardona 2 2 a 28805",
@@ -985,7 +985,7 @@
   },
   {
     "code": "ES-ALME-ESN",
-    "url": "www.esnalmeria.org",
+    "url": "http://www.esnalmeria.org",
     "name": "ESN Almeria",
     "country": "ES",
     "address": "ESN Cra de Sacramento. La Cañada de San Urbano s/n 04120",
@@ -1049,7 +1049,7 @@
   },
   {
     "code": "ES-CART-ESN",
-    "url": "www.esncartagena.org",
+    "url": "http://www.esncartagena.org",
     "name": "ESN Cartagena",
     "country": "ES",
     "address": "ESN Paseo Alfonso XIII, 53, , Murcia 30203",
@@ -1065,7 +1065,7 @@
   },
   {
     "code": "ES-CORU-ESN",
-    "url": "www.esncoruna.org",
+    "url": "http://www.esncoruna.org",
     "name": "ESN Coruna",
     "country": "ES",
     "address": "ESN Coruna Casa do Lagar s/n, Campus de Elviña. 15071 - , Spain 15071",
@@ -1081,7 +1081,7 @@
   },
   {
     "code": "ES-GIRO-ESN",
-    "url": "www.udg.edu/esngirona ",
+    "url": "http://www.udg.edu/esngirona ",
     "name": "ESN Girona",
     "country": "ES",
     "address": "C/ Maria Aurèlia Capmany i Farnés, 63-65, 17003 ",
@@ -1089,7 +1089,7 @@
   },
   {
     "code": "ES-GRAN-ESN",
-    "url": "www.esngranada.org",
+    "url": "http://www.esngranada.org",
     "name": "ESN Granada",
     "country": "ES",
     "address": "ESN Granada Calle Bazanas 3 18320",
@@ -1105,7 +1105,7 @@
   },
   {
     "code": "ES-JAEN-ESN",
-    "url": "www.esnjaen.org",
+    "url": "http://www.esnjaen.org",
     "name": "ESN Jaen",
     "country": "ES",
     "address": "ESN Jaen Campus Las Lagunillas s/n 23071",
@@ -1145,7 +1145,7 @@
   },
   {
     "code": "ES-MALA-ESN",
-    "url": "www.esnmalaga.org",
+    "url": "http://www.esnmalaga.org",
     "name": "ESN Málaga",
     "country": "ES",
     "address": "Facultad de Ciencias Económicas y Empresariales de , Calle Ejido 6, Pabellón de Gobierno Adjunto 29071",
@@ -1153,7 +1153,7 @@
   },
   {
     "code": "ES-MURC-ESN",
-    "url": "www.esnmurcia.es",
+    "url": "http://www.esnmurcia.es",
     "name": "ESN Murcia",
     "country": "ES",
     "address": "Aulario del Campus de la Merced, 2ª planta 30007",
@@ -1161,7 +1161,7 @@
   },
   {
     "code": "ES-OVIE-ESN",
-    "url": "www.esnoviedo.org",
+    "url": "http://www.esnoviedo.org",
     "name": "ESN Oviedo",
     "country": "ES",
     "address": "Erasmus Student Network (ESN ) Av/ Fernández Ladreda nº 48 (Hotel de Asociaciones) 33011",
@@ -1225,7 +1225,7 @@
   },
   {
     "code": "ES-VICA-ESN",
-    "url": "www.esnuax.org",
+    "url": "http://www.esnuax.org",
     "name": "ESN UAX",
     "country": "ES",
     "address": "ESN UAX Universidad Alfonso X el Sabio Av. Universidad, 1 (A-269) 28691",
@@ -1233,7 +1233,7 @@
   },
   {
     "code": "ES-VIGO-ESN",
-    "url": "www.esnvigo.org/satellite4",
+    "url": "http://www.esnvigo.org/satellite4",
     "name": "ESN Vigo",
     "country": "ES",
     "address": "ESN Local de Asociaciones 3, Edificio Miralles, Plaza Miralles Campus As Lagoas Marcosende s/n CP 36310 (Pontevedra) 36310",
@@ -1241,7 +1241,7 @@
   },
   {
     "code": "ES-ZARA-ESN",
-    "url": "www.esnzaragoza.orh",
+    "url": "http://www.esnzaragoza.orh",
     "name": "ESN Zaragoza",
     "country": "ES",
     "address": "ESN Zaragoza C/Pedro Cerbuna S/N, Campus Universitario San Francisco, Facultad de Ciencias, Edificio de Matemáticas, Despacho 323, 50009",
@@ -1265,7 +1265,7 @@
   },
   {
     "code": "FI-HELS-KAN",
-    "url": "www.esn-helga.com",
+    "url": "http://www.esn-helga.com",
     "name": "ESN HELGA",
     "country": "FI",
     "address": "ESN HELGA Ratapihantie 13 PL 207 00520",
@@ -1305,7 +1305,7 @@
   },
   {
     "code": "FI-KUOP-KIS",
-    "url": "www.esnkisa.eu",
+    "url": "http://www.esnkisa.eu",
     "name": "ESN KISA",
     "country": "FI",
     "address": "ESN KISA c/o ISYY Yliopistonranta 3, PL 1627 70211",
@@ -1329,7 +1329,7 @@
   },
   {
     "code": "FI-ROVA-LYY",
-    "url": "www.esnlapland.eu",
+    "url": "http://www.esnlapland.eu",
     "name": "ESN Lapland",
     "country": "FI",
     "address": "ESN Lapland Yliopistonkatu 8 96300",
@@ -1337,7 +1337,7 @@
   },
   {
     "code": "FI-TAMP-INT",
-    "url": "www.esninto.org",
+    "url": "http://www.esninto.org",
     "name": "ESN INTO Tampere",
     "country": "FI",
     "address": "ESN INTO Korkeakoulunkatu 10 33720",
@@ -1345,7 +1345,7 @@
   },
   {
     "code": "FI-TAMP-TAM",
-    "url": "www.esnfint.org",
+    "url": "http://www.esnfint.org",
     "name": "ESN FINT",
     "country": "FI",
     "address": "ESN FINT ry Linna Kalevantie 5 33014",
@@ -1369,7 +1369,7 @@
   },
   {
     "code": "FI-TURK-TYY",
-    "url": "www.esnuniturku.fi",
+    "url": "http://www.esnuniturku.fi",
     "name": "ESN Uni Turku",
     "country": "FI",
     "address": "Rehtorinpellonkatu 4-6 B, 20500 , Finland",
@@ -1377,7 +1377,7 @@
   },
   {
     "code": "FI-VAAS-ESN",
-    "url": "www.esnvaasa.net",
+    "url": "http://www.esnvaasa.net",
     "name": "ESN Vaasa",
     "country": "FI",
     "address": "ESN Vaasa Ajurinkatu 27 A 29 65100",
@@ -1409,7 +1409,7 @@
   },
   {
     "code": "FR-BESA-AEI",
-    "url": "www.erasmus-besancon.com",
+    "url": "http://www.erasmus-besancon.com",
     "name": "ESN Besançon",
     "country": "FR",
     "address": "ESN 30, rue Mégevand 25000",
@@ -1473,7 +1473,7 @@
   },
   {
     "code": "FR-LYON-ESN",
-    "url": "www.lyon.ixesn.fr",
+    "url": "http://www.lyon.ixesn.fr",
     "name": "ESN Lyon",
     "country": "FR",
     "address": "ESN 25, rue Jaboulay 69007",
@@ -1505,7 +1505,7 @@
   },
   {
     "code": "FR-NANC-ESN",
-    "url": "www.esnnancy.fr",
+    "url": "http://www.esnnancy.fr",
     "name": "ESN Nancy",
     "country": "FR",
     "address": "ESN 13 place Carnot Faculté de droit, BR 01 54000",
@@ -1609,7 +1609,7 @@
   },
   {
     "code": "FR-ROUE-ESN",
-    "url": "www.rouen.ixesn.fr",
+    "url": "http://www.rouen.ixesn.fr",
     "name": "ESN Rouen",
     "country": "FR",
     "address": "ESN Rouen Place Emile Blondel, Mont-Saint-Aignan 76130",
@@ -1753,7 +1753,7 @@
   },
   {
     "code": "GB-LEED-ESN",
-    "url": "www.luu.org.uk/groups/interasoc/",
+    "url": "http://www.luu.org.uk/groups/interasoc/",
     "name": "ESN Leeds",
     "country": "GB",
     "address": "Geoffrey Bessardon on behalf of ESN 16 Oatlands Garden LS7 1Sl",
@@ -2033,7 +2033,7 @@
   },
   {
     "code": "HR-DUBR-ESN",
-    "url": "www.esndubrovnik.hr",
+    "url": "http://www.esndubrovnik.hr",
     "name": "ESN Dubrovnik",
     "country": "HR",
     "address": "ESN Lapadska obala 7 20000",
@@ -2193,7 +2193,7 @@
   },
   {
     "code": "HU-SZEG-ESN",
-    "url": "www.szeged.esn.hu",
+    "url": "http://www.szeged.esn.hu",
     "name": "ESN Szeged",
     "country": "HU",
     "address": " Boldogasszony sgt. 6. 6725",
@@ -2273,7 +2273,7 @@
   },
   {
     "code": "IT-BARI-ESN",
-    "url": "www.esnbari.org",
+    "url": "http://www.esnbari.org",
     "name": "ESN Bari",
     "country": "IT",
     "address": "MELE VIA BEATO EGIDIO, 3 CAPURSO (BA) IT",
@@ -2297,7 +2297,7 @@
   },
   {
     "code": "IT-BOCC-ESN",
-    "url": "www.esnbocconi.it",
+    "url": "http://www.esnbocconi.it",
     "name": "ESN Bocconi Milano",
     "country": "IT",
     "address": "ESN Bocconi Via Ruggero Bonghi 20141",
@@ -2321,7 +2321,7 @@
   },
   {
     "code": "IT-CAGL-ESN",
-    "url": "www.esncagliari.org ",
+    "url": "http://www.esncagliari.org ",
     "name": "ESN Cagliari",
     "country": "IT",
     "address": "Associazione Erasmus - ESN Via San Giorgio, 12 09124",
@@ -2329,7 +2329,7 @@
   },
   {
     "code": "IT-CAME-AUR",
-    "url": "www.esncamerino.it",
+    "url": "http://www.esncamerino.it",
     "name": "ESN A.U.R.E. Camerino",
     "country": "IT",
     "address": "ESN A.U.R.E. Via Pieragostini, n° 18 62032",
@@ -2337,7 +2337,7 @@
   },
   {
     "code": "IT-CAST-ESN",
-    "url": "www.esncastellanza.it",
+    "url": "http://www.esncastellanza.it",
     "name": "ESN Castellanza",
     "country": "IT",
     "address": "Corso Matteotti 22 21053",
@@ -2353,7 +2353,7 @@
   },
   {
     "code": "IT-COSE-ESN",
-    "url": "www.esncosenza.org",
+    "url": "http://www.esncosenza.org",
     "name": "ESN Cosenza",
     "country": "IT",
     "address": "ESN Cosenza via savinio centro residenziale maisonettes blocco 1 app 10 87036 rende (CS) IT",
@@ -2361,7 +2361,7 @@
   },
   {
     "code": "IT-CTNZ-ESN",
-    "url": "www.esncatanzaro.com",
+    "url": "http://www.esncatanzaro.com",
     "name": "ESN Catanzaro",
     "country": "IT",
     "address": "ESN via Giuseppe Rito1/1 88100",
@@ -2369,7 +2369,7 @@
   },
   {
     "code": "IT-FERR-ESN",
-    "url": "www.esnferrara.org",
+    "url": "http://www.esnferrara.org",
     "name": "ESN Ferrara",
     "country": "IT",
     "address": "Vicolo della Pace, 13 Copparo 44034",
@@ -2385,7 +2385,7 @@
   },
   {
     "code": "IT-FOGG-ESN",
-    "url": "www.esnfoggia.it",
+    "url": "http://www.esnfoggia.it",
     "name": "ESN Foggia",
     "country": "IT",
     "address": "ESN via Antonio Gramsci 89 71121",
@@ -2401,7 +2401,7 @@
   },
   {
     "code": "IT-LECC-LIS",
-    "url": "www.erasmuslecce.it",
+    "url": "http://www.erasmuslecce.it",
     "name": "ESN Salento LISA",
     "country": "IT",
     "address": "ESN Salento LISA piazza arco di trionfo n°1 -Palazzo codici Pisanelli, 73100",
@@ -2409,7 +2409,7 @@
   },
   {
     "code": "IT-MACE-ESN",
-    "url": "www.esnmacerata.it",
+    "url": "http://www.esnmacerata.it",
     "name": "ESN Macerata",
     "country": "IT",
     "address": "ESN Via Pescheria Vecchia, 8 62100",
@@ -2457,7 +2457,7 @@
   },
   {
     "code": "IT-MILA-UCA",
-    "url": "www.esnunicatt.it",
+    "url": "http://www.esnunicatt.it",
     "name": "ESN Unicatt Milano",
     "country": "IT",
     "address": "ESN Unicatt via Meravigli 16 20123",
@@ -2465,7 +2465,7 @@
   },
   {
     "code": "IT-MODE-ESN",
-    "url": "www.esnmodena.it",
+    "url": "http://www.esnmodena.it",
     "name": "ESN Modena ENEA",
     "country": "IT",
     "address": "via ganaceto 44 41121",
@@ -2529,7 +2529,7 @@
   },
   {
     "code": "IT-PESC-ASE",
-    "url": "www.esnchietipescara.eu",
+    "url": "http://www.esnchietipescara.eu",
     "name": "ESN ASE Chieti Pescara",
     "country": "IT",
     "address": "ESN ASE Chieti Viale Pindaro 42 65127",
@@ -2537,7 +2537,7 @@
   },
   {
     "code": "IT-PISA-ESN",
-    "url": "www.esnpisa.it",
+    "url": "http://www.esnpisa.it",
     "name": "ESN Pisa",
     "country": "IT",
     "address": "ESN Via Enrico Fermi, 8 56126",
@@ -2561,7 +2561,7 @@
   },
   {
     "code": "IT-RIMI-ESN",
-    "url": "www.esnrimini.it",
+    "url": "http://www.esnrimini.it",
     "name": "ESN Rimini",
     "country": "IT",
     "address": "ESN Via Sigismondo 65 47921",
@@ -2617,7 +2617,7 @@
   },
   {
     "code": "IT-TAVA-ESN",
-    "url": "www.esnnaseudine.it",
+    "url": "http://www.esnnaseudine.it",
     "name": "ESN NASE Udine",
     "country": "IT",
     "address": "ESN NASE Udine Presso: Baracetti Piazza Giuseppe Garibaldi 27 33010 Tavagnacco (UD) IT",
@@ -2633,7 +2633,7 @@
   },
   {
     "code": "IT-TREN-ESN",
-    "url": "www.esntrento.it",
+    "url": "http://www.esntrento.it",
     "name": "ESN Trento",
     "country": "IT",
     "address": "ESN office Via Inama n.5 Faculty of economics 38122",
@@ -2665,7 +2665,7 @@
   },
   {
     "code": "LI-VADU-ESN",
-    "url": "www.esn.li",
+    "url": "http://www.esn.li",
     "name": "ESN University of Liechtenstein",
     "country": "LI",
     "address": "ESN University of Liechtenstein Fürst-Franz-Josef-Strasse 9490",
@@ -2793,7 +2793,7 @@
   },
   {
     "code": "LU-LUXE-ESN",
-    "url": "www.esn.lu",
+    "url": "http://www.esn.lu",
     "name": "ESN Luxembourg",
     "country": "LU",
     "address": "ESN Luxembourg 11 rue des saules L-5361",
@@ -2873,7 +2873,7 @@
   },
   {
     "code": "NL-BRED-ESN",
-    "url": "www.esn-breda.nl",
+    "url": "http://www.esn-breda.nl",
     "name": "ESN Breda",
     "country": "NL",
     "address": "ESN NHTV University of Applied Sciences Monseigneur Hopmansstraat 1 4814HV",
@@ -2881,7 +2881,7 @@
   },
   {
     "code": "NL-DELF-ESN",
-    "url": "www.esn-delft.nl/",
+    "url": "http://www.esn-delft.nl/",
     "name": "ESN Delft",
     "country": "NL",
     "address": "Stichting Erasmus Student Network Simonsstraat 110 2628TK 2628TK",
@@ -2905,7 +2905,7 @@
   },
   {
     "code": "NL-GRON-WIN",
-    "url": "www.esn-groningen.nl",
+    "url": "http://www.esn-groningen.nl",
     "name": "ESN Groningen",
     "country": "NL",
     "address": "Stichting ESN Pelsterstraat 23 9711KH",
@@ -2921,7 +2921,7 @@
   },
   {
     "code": "NL-LEEU-ESN",
-    "url": "www.esn-leeuwarden.com",
+    "url": "http://www.esn-leeuwarden.com",
     "name": "ESN Leeuwarden",
     "country": "NL",
     "address": "ESN Rengerslaan 1 8917DD",
@@ -2929,7 +2929,7 @@
   },
   {
     "code": "NL-LEID-ESN",
-    "url": "www.isnleiden.com",
+    "url": "http://www.isnleiden.com",
     "name": "ISN Leiden",
     "country": "NL",
     "address": "ISN Kaiserstraat 25 2311 GN",
@@ -2945,7 +2945,7 @@
   },
   {
     "code": "NL-ROTT-ESN",
-    "url": "www.esn-rotterdam.nl",
+    "url": "http://www.esn-rotterdam.nl",
     "name": "ESN Rotterdam",
     "country": "NL",
     "address": "ESN Burgemeester Oudlaan 50 (Room N1-13) PO Box 1738 3000 DR",
@@ -2961,7 +2961,7 @@
   },
   {
     "code": "NL-TILB-ESN",
-    "url": "www.iesntilburg.nl",
+    "url": "http://www.iesntilburg.nl",
     "name": "I*ESN Tilburg",
     "country": "NL",
     "address": "I*ESN Heuvelring 45 5038CJ",
@@ -2969,7 +2969,7 @@
   },
   {
     "code": "NL-UTRE-ESN",
-    "url": "www.esn-utrecht.nl",
+    "url": "http://www.esn-utrecht.nl",
     "name": "ESN Utrecht",
     "country": "NL",
     "address": "ESN Achter St. Pieter 25 3512HR",
@@ -3017,7 +3017,7 @@
   },
   {
     "code": "NO-MOLD-ESN",
-    "url": "www.molde.esn.no",
+    "url": "http://www.molde.esn.no",
     "name": "ESN Molde",
     "country": "NO",
     "address": "ESN v/Høgskolen i Postboks 2110 6402",
@@ -3041,7 +3041,7 @@
   },
   {
     "code": "NO-TRON-ESN",
-    "url": "www.trondheim.esn.no",
+    "url": "http://www.trondheim.esn.no",
     "name": "ESN Trondheim",
     "country": "NO",
     "address": "ESN CO: Det internasjonale huset på Gløshaugen campus O. S. Bragstads plass 3 NO-7491 7491",
@@ -3225,7 +3225,7 @@
   },
   {
     "code": "PL-POZN-UAM",
-    "url": "www.uam.esn.pl ",
+    "url": "http://www.uam.esn.pl ",
     "name": "ESN UAM Poznan",
     "country": "PL",
     "address": "Rzeczypospolitej ul. Grunwaldzka 6 room 102 60-780",
@@ -3329,7 +3329,7 @@
   },
   {
     "code": "PL-WARS-UKS",
-    "url": "www.uksw.esn.pl",
+    "url": "http://www.uksw.esn.pl",
     "name": "ESN UKSW Warsaw",
     "country": "PL",
     "address": "ESN UKSW Myśliborska 97/70 03-185",
@@ -3337,7 +3337,7 @@
   },
   {
     "code": "PL-WARS-UNW",
-    "url": "www.uw.esn.pl",
+    "url": "http://www.uw.esn.pl",
     "name": "ESN UW Warsaw",
     "country": "PL",
     "address": "Krakowskie Przedmieście 24 room 210 00-325",
@@ -3345,7 +3345,7 @@
   },
   {
     "code": "PL-WARS-WPW",
-    "url": "www.pw.esn.pl",
+    "url": "http://www.pw.esn.pl",
     "name": "ESN PW Warsaw",
     "country": "PL",
     "address": "ESN PW Warsaw ul. Waryńskiego 12 Room A104 00-631",
@@ -3377,7 +3377,7 @@
   },
   {
     "code": "PL-WROC-UWR",
-    "url": "www.facebook.com/esn.uwr",
+    "url": "http://www.facebook.com/esn.uwr",
     "name": "ESN UWr",
     "country": "PL",
     "address": "Joanna Michalak ul Prądzyńskiego 61/15 50-433",
@@ -3393,7 +3393,7 @@
   },
   {
     "code": "PT-BRAG-ESN",
-    "url": "www.esnbraganca.org",
+    "url": "http://www.esnbraganca.org",
     "name": "ESN Bragança",
     "country": "PT",
     "address": "International Relations Office Instituto Politécnico de 5300-253",
@@ -3417,7 +3417,7 @@
   },
   {
     "code": "PT-COVI-ESN",
-    "url": "www.esn-covilha.org",
+    "url": "http://www.esn-covilha.org",
     "name": "ESN Covilhã",
     "country": "PT",
     "address": "ESN Covilhã Rua Sr. da Paciência, nº39 6200-158",
@@ -3425,7 +3425,7 @@
   },
   {
     "code": "PT-EVOR-ESN",
-    "url": "www.esnevora.org",
+    "url": "http://www.esnevora.org",
     "name": "ESN Évora",
     "country": "PT",
     "address": "ESN Rua Diogo Cão, 21 7000-872",
@@ -3441,7 +3441,7 @@
   },
   {
     "code": "PT-FUNC-ESN",
-    "url": "www.esnmadeira.org",
+    "url": "http://www.esnmadeira.org",
     "name": "ESN Madeira",
     "country": "PT",
     "address": "ESN Madeira Rua do Poço Barral, n.º 4, casa C, freguesia de São Martinho, 9000-154",
@@ -3513,7 +3513,7 @@
   },
   {
     "code": "RO-BUCH-ESN",
-    "url": "www.ase-bucharest.esn.ro",
+    "url": "http://www.ase-bucharest.esn.ro",
     "name": "ESN ASE Bucharest",
     "country": "RO",
     "address": "Stefania Dumitrescu Bucuresti, sector 4, str. Stanjeneilor nr. 5 bl. 34 sc. A et 1 Ap.10 041952",
@@ -3569,7 +3569,7 @@
   },
   {
     "code": "RO-TIMI-ESN",
-    "url": "www.timisoara.esn.ro",
+    "url": "http://www.timisoara.esn.ro",
     "name": "ESN Timisoara",
     "country": "RO",
     "address": "Aleea Studenţilor 13 Timişoara 300086 Timiş, România Doorm C13 300086",
@@ -3609,7 +3609,7 @@
   },
   {
     "code": "SE-BORA-ESN",
-    "url": "www.esnboras.org",
+    "url": "http://www.esnboras.org",
     "name": "ESN Boras",
     "country": "SE",
     "address": "ESN c/o Studentkåren i Allégatan 1 50332",
@@ -3625,7 +3625,7 @@
   },
   {
     "code": "SE-HUDD-ESN",
-    "url": "www.esnsodertorn.org",
+    "url": "http://www.esnsodertorn.org",
     "name": "ESN Södertörn",
     "country": "SE",
     "address": "Södertörns Högskolas Studentkår Alfred Nobels Allé 7 14189",
@@ -3657,7 +3657,7 @@
   },
   {
     "code": "SE-LINK-ESN",
-    "url": "www.esn.studorg.liu.se",
+    "url": "http://www.esn.studorg.liu.se",
     "name": "ESN Linköping",
     "country": "SE",
     "address": "ESN Kårallen, s universitet 581 83",
@@ -3681,7 +3681,7 @@
   },
   {
     "code": "SE-MALM-INT",
-    "url": "www.esnmalmo.org",
+    "url": "http://www.esnmalmo.org",
     "name": "ESN Malmö",
     "country": "SE",
     "address": "C/O Studentkåren Bassängkajen 8 21118",
@@ -3713,7 +3713,7 @@
   },
   {
     "code": "SE-STOC-SUS",
-    "url": "www.esnsu.org",
+    "url": "http://www.esnsu.org",
     "name": "ESN SU",
     "country": "SE",
     "address": "ESN SU c/O Giulia Neulen Stupvägen 45 19142",
@@ -3753,7 +3753,7 @@
   },
   {
     "code": "SI-LJUB-FDV",
-    "url": "www.erasmusljubljana.si",
+    "url": "http://www.erasmusljubljana.si",
     "name": "ESN Ljubljana University",
     "country": "SI",
     "address": "ESN University Fakulteta za družbene vede, Kardeljeva pl. 5 Študentska pisarna 1000",
@@ -3777,7 +3777,7 @@
   },
   {
     "code": "SK-BANS-UMB",
-    "url": "www.umb.esn.sk",
+    "url": "http://www.umb.esn.sk",
     "name": "ESN UMB BB",
     "country": "SK",
     "address": "ESN UMB BB ŠD3, Tajovského 51 97401",
@@ -3793,7 +3793,7 @@
   },
   {
     "code": "SK-BRAT-EUB",
-    "url": "www.eu.esn.sk",
+    "url": "http://www.eu.esn.sk",
     "name": "ESN EU Bratislava",
     "country": "SK",
     "address": "ESN EU E9.12 University of Economics in Dolnozemska cesta 1/b 85235",
@@ -3833,7 +3833,7 @@
   },
   {
     "code": "SK-NITR-UKF",
-    "url": "www.ukf.esn.sk",
+    "url": "http://www.ukf.esn.sk",
     "name": "ESN UKF",
     "country": "SK",
     "address": "ESN UKF ŠD Slančíkovej 595/1 949 74",
@@ -4025,7 +4025,7 @@
   },
   {
     "code": "TR-ISTA-BOG",
-    "url": "www.esnbogazici.com",
+    "url": "http://www.esnbogazici.com",
     "name": "ESN Bogazici",
     "country": "TR",
     "address": "ESN Bogazici Bogaziçi University Office of International Relations South Campus OFB Building Bebek-Istanbul 34342",
@@ -4081,7 +4081,7 @@
   },
   {
     "code": "TR-ISTA-YIL",
-    "url": "www.esnytu.org",
+    "url": "http://www.esnytu.org",
     "name": "ESN YTU",
     "country": "TR",
     "address": "ESN YTU Abbasaga mah Nurtanesi sk Gül apt No:23/25 Daire:2 Besiktas 345353",
