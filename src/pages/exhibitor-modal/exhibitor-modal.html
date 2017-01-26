@@ -19,6 +19,9 @@
 
 
 <ion-content padding>
+  <img src="assets/logos/{{exhibitor.code}}.png" alt="" *ngIf="hasCustomLogo(exhibitor.code)" class="logo">
+  <img src="assets/logos/ESN-STAR.png" alt="" *ngIf="!hasCustomLogo(exhibitor.code)" class="logo">
+
   <p>Name: {{exhibitor.name}}</p>
   <p>Address: {{exhibitor.address}}</p>
   <p>City: {{exhibitor.city}}</p>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {NavController, NavParams, ViewController} from 'ionic-angular';
 import {IExhibitor} from "../../model/Exhibitor";
+import {CustomLogoList} from "../../providers/custom-logo-list";
 
 /*
   Generated class for the ExhibitorModal page.
@@ -16,12 +17,16 @@ export class ExhibitorModalPage {
 
   exhibitor: IExhibitor;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {
+  constructor(public cll: CustomLogoList, public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {
     this.exhibitor = navParams.get('exhibitor');
   }
 
   closeModal(){
     this.viewCtrl.dismiss();
+  }
+
+  hasCustomLogo(id) {
+    return this.cll.hasCustomLogo(id);
   }
 
 

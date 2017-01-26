@@ -1,6 +1,6 @@
 <ion-header>
     <ion-toolbar>
-        <ion-segment [(ngModel)]="typeFilter">
+        <ion-segment [(ngModel)]="filter.type" (ionChange)="applyFilters()">
             <ion-segment-button value="all">All</ion-segment-button>
             <ion-segment-button value="esn">ESN</ion-segment-button>
             <ion-segment-button value="partners">Partners</ion-segment-button>
@@ -10,25 +10,38 @@
 
 <ion-content>
 
-    <ion-searchbar (ionInput)="filterItems($event)"></ion-searchbar>
+    <ion-list>
+        <ion-item>
+            <ion-label>Filter by Country</ion-label>
+            <ion-select [(ngModel)]="filter.country" (ionChange)="applyFilters()">
+                <ion-option *ngFor="let country of countries" [value]="country.code">{{country.name}}</ion-option>
+            </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label>Search</ion-label>
+            <ion-input (input)="applyFilters()" [(ngModel)]="filter.search"></ion-input>
+            <ion-badge item-right>{{filteredExhibitors?.length}}</ion-badge>
+        </ion-item>
+    </ion-list>
+
+
+
+
     <div *ngFor="let exhibitor of filteredExhibitors; let i = index">
         <ion-row *ngIf="i%4==0" responsive-sm>
-            <ion-col *ngIf="isFiltered(exhibitor)">
+            <ion-col >
                 <exhibitor-card [exhibitor]="filteredExhibitors[i]"></exhibitor-card>
             </ion-col>
-            <ion-col *ngIf="isFiltered(exhibitor)">
+            <ion-col >
                 <exhibitor-card [exhibitor]="filteredExhibitors[i+1]"></exhibitor-card>
             </ion-col>
-            <ion-col *ngIf="isFiltered(exhibitor)">
+            <ion-col >
                 <exhibitor-card [exhibitor]="filteredExhibitors[i+2]"></exhibitor-card>
             </ion-col>
-            <ion-col *ngIf="isFiltered(exhibitor)">
+            <ion-col >
                 <exhibitor-card [exhibitor]="filteredExhibitors[i+3]"></exhibitor-card>
             </ion-col>
         </ion-row>
     </div>
 
-    <ion-infinite-scroll (ionInfinite)="doInfinite($event)" *ngIf="!filtering">
-        <ion-infinite-scroll-content></ion-infinite-scroll-content>
-    </ion-infinite-scroll>
 </ion-content>

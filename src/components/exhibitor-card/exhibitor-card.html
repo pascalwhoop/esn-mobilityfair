@@ -1,6 +1,6 @@
 <ion-card *ngIf="exhibitor" (click)="showModal(exhibitor)">
-    <img src="assets/logos/{{exhibitor._id}}.png" alt="" *ngIf="hasCustomLogo(exhibitor._id)">
-    <img src="assets/logos/ESN-STAR.png" alt="" *ngIf="!hasCustomLogo(exhibitor._id)">
+    <img src="assets/logos/{{exhibitor.code}}.png" alt="" *ngIf="hasCustomLogo(exhibitor.code)">
+    <img src="assets/logos/ESN-STAR.png" alt="" *ngIf="!hasCustomLogo(exhibitor.code)">
     <ion-card-content>
         <ion-card-title>
             {{exhibitor.name}}

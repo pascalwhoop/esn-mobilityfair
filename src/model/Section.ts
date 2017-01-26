@@ -7,7 +7,7 @@ export class Section implements ISection{
     country: string;
     address: string;
     city: string;
-    _id: string;
+    code: string;
     url: string;
     name: string;
 
@@ -16,7 +16,7 @@ export class Section implements ISection{
         this.country = country;
         this.address = address;
         this.city = city;
-        this._id = id;
+        this.code = id;
         this.url = url;
         this.name = name;
     }

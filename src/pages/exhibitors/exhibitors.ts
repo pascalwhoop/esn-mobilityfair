@@ -19,63 +19,101 @@ export class ExhibitorsPage {
     filteredExhibitors: Array<IExhibitor>;
     _allExhibitors: Array<IExhibitor>;
 
-    filtering = false;
-    typeFilter = 'all';
-    pageSize = 30;
+    filter = {
+        country: '',
+        search: '',
+        type: 'all'
+    };
+
+    countries = [ { code: 'AT', name: 'Austria' },
+        { code: 'AZ', name: 'Azerbaijan' },
+        { code: 'BE', name: 'Belgium' },
+        { code: 'BA', name: 'Bosnia and Herzegovina' },
+        { code: 'BG', name: 'Bulgaria' },
+        { code: 'HR', name: 'Croatia' },
+        { code: 'CY', name: 'Cyprus' },
+        { code: 'CZ', name: 'Czech Republic' },
+        { code: 'DK', name: 'Denmark' },
+        { code: 'EE', name: 'Estonia' },
+        { code: 'FI', name: 'Finland' },
+        { code: 'FR', name: 'France' },
+        { code: 'GE', name: 'Georgia' },
+        { code: 'DE', name: 'Germany' },
+        { code: 'GR', name: 'Greece' },
+        { code: 'HU', name: 'Hungary' },
+        { code: 'IS', name: 'Iceland' },
+        { code: 'IE', name: 'Ireland' },
+        { code: 'IT', name: 'Italy' },
+        { code: 'LV', name: 'Latvia' },
+        { code: 'LI', name: 'Liechtenstein' },
+        { code: 'LT', name: 'Lithuania' },
+        { code: 'LU', name: 'Luxembourg' },
+        { code: 'MK', name: 'Macedonia' },
+        { code: 'MT', name: 'Malta' },
+        { code: 'NL', name: 'The Netherlands' },
+        { code: 'NO', name: 'Norway' },
+        { code: 'PL', name: 'Poland' },
+        { code: 'PT', name: 'Portugal' },
+        { code: 'RO', name: 'Romania' },
+        { code: 'RU', name: 'Russia' },
+        { code: 'YU', name: 'Serbia' },
+        { code: 'SK', name: 'Slovakia' },
+        { code: 'SI', name: 'Slovenia' },
+        { code: 'ES', name: 'Spain' },
+        { code: 'SE', name: 'Sweden' },
+        { code: 'CH', name: 'Switzerland' },
+        { code: 'TR', name: 'Turkey' },
+        { code: 'GB', name: 'UK' }
+        ];
+    countrySelected: string;
 
 
     constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
-        http.get('assets/testdata/sections.json')
+        this.fetchSections(http);
+    }
+
+    private fetchSections(http: Http) {
+        http.get('assets/data/sections.json')
             .share()
             .map(response => response.json() as IExhibitor[])
             .subscribe(exhibitors => {
                 //sort items by description property
 
-                this._allExhibitors = exhibitors.sort((a, b)=> {
+                this._allExhibitors = exhibitors.sort((a, b) => {
                     return (a.name < b.name ? -1 : (a.name > b.name ? 1 : 0));
                 });
-
-
-                this.filteredExhibitors = this._allExhibitors.slice(0, this.pageSize);
+                this.filteredExhibitors = this._allExhibitors.slice(0);
             });
     }
 
-    isFiltered(exhibitor: IExhibitor){
-        return this.typeFilter == 'all' || exhibitor._id && this.typeFilter == 'esn' || !exhibitor._id && this.typeFilter == 'partners'
+    public applyFilters(){
+        this.filteredExhibitors = this.filterExhibitors();
     }
 
-    filterItems(ev: any) {
-        // set val to the value of the searchbar
-        let query = ev.target.value;
-        this.filtering = query && query.length != 0; // flip filtering, needed for infinite scroll
-        this.filteredExhibitors = this.getFilteredItems(query);
-    }
+    private filterExhibitors() : IExhibitor[] {
+        let f = this.filter;
+        //get a copy of the array to filter through
+        let results = this._allExhibitors.slice(0);
 
-    private getFilteredItems(query?: string) {
-        // if the value is an empty string don't filter the items
-        if (query && query.trim() != '') {
-            return this._allExhibitors.filter((item) => {
+        if (f.search && f.search.trim() != '') {
+            results = results.filter((item) => {
                 let itStr = JSON.stringify(item).toLowerCase();
-                return (itStr.indexOf(query.toLowerCase()) > -1);
+                return (itStr.indexOf(f.search.toLowerCase()) > -1);
             });
         }
-        //but just return a copy of the array
-        else {
-            return this._allExhibitors.slice(0, this.pageSize);
+        if(f.country){
+            results = results.filter(item => {
+                return item.country == f.country
+            });
         }
-    }
-
-    doInfinite(infiniteScroll) {
-
-
-        var alreadyVis = this.filteredExhibitors.length;
-        //only if we haven't reached the bottom yet.
-        if(alreadyVis != this._allExhibitors.length) {
-            this.filteredExhibitors = this.filteredExhibitors.concat(this._allExhibitors.slice(alreadyVis, alreadyVis + this.pageSize));
+        if(f.type != 'all'){
+            results = results.filter(item =>{
+                return item.code && f.type == 'esn' || !item.code && f.type == 'partners'
+            })
         }
-        console.log('executed infinite scroll');
-        infiniteScroll.complete();
-
+        return results;
     }
 
 }
+
+

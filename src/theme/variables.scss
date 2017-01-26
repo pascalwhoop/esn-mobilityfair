@@ -39,10 +39,11 @@ $colors: (
 );
 
 $font-family-base: 'Montserrat', Helvetica, sans-serif;
+$background-color: rgba(255, 255, 255, 0.56);
 
 //toolbar and tabs bar bottom
-$toolbar-background: color($colors, light);
-$tabs-background: $toolbar-background;
+$toolbar-background: color($colors, dark);
+$tabs-background: $background-color;
 //$tabs-tab-color-inactive: color($colors, danger);
 $tabs-tab-color-active: color($colors, favorite);
 //$tabs-border-color: color($colors, danger);
