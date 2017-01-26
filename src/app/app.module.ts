@@ -10,32 +10,32 @@ import {CustomLogoList} from "../providers/custom-logo-list";
 import {ExhibitorModalPage} from "../pages/exhibitor-modal/exhibitor-modal";
 
 @NgModule({
-    declarations: [
-        MyApp,
-        AboutPage,
-        ProgramPage,
-        ExhibitorsPage,
-        TabsPage,
-        //components
-        ExhibitorCardComponent,
-        ExhibitorModalPage,
-        //providers?
-    ],
-    imports: [
-        IonicModule.forRoot(MyApp)
-    ],
-    bootstrap: [IonicApp],
-    entryComponents: [
-        MyApp,
-        AboutPage,
-        ProgramPage,
-        ExhibitorsPage,
-        TabsPage,
-        //components
-        ExhibitorCardComponent,
-        ExhibitorModalPage
-    ],
-    providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, CustomLogoList]
+  declarations: [
+    MyApp,
+    AboutPage,
+    ProgramPage,
+    ExhibitorsPage,
+    TabsPage,
+    //components
+    ExhibitorCardComponent,
+    ExhibitorModalPage,
+    //pipes?
+  ],
+  imports: [
+    IonicModule.forRoot(MyApp)
+  ],
+  bootstrap: [IonicApp],
+  entryComponents: [
+    MyApp,
+    AboutPage,
+    ProgramPage,
+    ExhibitorsPage,
+    TabsPage,
+    //components
+    ExhibitorCardComponent,
+    ExhibitorModalPage,
+  ],
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, CustomLogoList]
 })
 export class AppModule {
 }
