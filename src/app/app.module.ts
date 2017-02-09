@@ -36,7 +36,14 @@ import {DirectionsCardComponent} from "../components/directions-card/directions-
 
     ],
     imports: [
-        IonicModule.forRoot(MyApp)
+        IonicModule.forRoot(MyApp, {
+            platforms: {
+                android: {
+                    tabsPlacement: 'top'
+                }
+            },
+            pageTransition: 'md-transition'
+        })
     ],
     bootstrap: [IonicApp],
     entryComponents: [

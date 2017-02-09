@@ -17,6 +17,11 @@
 .toolbar-title-md {
   text-align: center;
 }
+@media (min-width: 567px) {
+  html{font-size: 68% !important;
+  }
+}
+
 
 body {
     overflow:scroll;
@@ -29,6 +34,14 @@ body {
 .ion-page{
   background: url('../assets/img/flag-parade.jpg');
   background-size: cover;
+
+  text-align: center;
+  ion-card{
+    ion-card-title{
+      text-align: center;
+    }
+    text-align: left;
+  }
 }
 
 .scroll-content {

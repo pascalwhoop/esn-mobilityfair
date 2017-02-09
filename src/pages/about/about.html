@@ -12,7 +12,7 @@
     <div style="height:100px;"></div>
     <ion-row>
         <ion-col>
-                <h1>{{'Meet the Erasmus Generation' | trans}}</h1>
+                <h1>{{"Meet the Erasmus Generation" | trans}}</h1>
 
             <p>
                 <span>{{'The Mobility Fair is a part of the Annual General Meeting of the Erasmus Student Network (ESN) - Europe’s biggest student association. It takes place on' | trans}}</span>
@@ -32,10 +32,15 @@
         </ion-col>
     </ion-row>
 
-    <ion-row responsive-sm wrap>
-        <ion-col width-50>
-            <directions-card></directions-card>
+    <ion-row>
+        <ion-col width-50 offset-25>
+            <button ion-button full (click)="goExhibitorsPage()">
+                <span>{{"Show all exhibitors"|trans}}</span>
+            </button>
         </ion-col>
+    </ion-row>
+
+    <ion-row responsive-sm wrap>
         <ion-col width-50>
             <ion-card>
                 <ion-card-content>
@@ -74,34 +79,25 @@
                 </ion-card-content>
             </ion-card>
         </ion-col>
-    </ion-row>
-
-    <ion-row>
-        <!--<ion-col>-->
-        <!--<ion-card class="header-image-card ">-->
-        <!--<img src="assets/img/flag-parade.jpg"/>-->
-        <!--<div class="layover"></div>-->
-        <!--<div class="card-title">MOBILITY FAIR</div>-->
-        <!--</ion-card>-->
-
-
-        <!--</ion-col>-->
+        <ion-col width-50>
+            <directions-card></directions-card>
+        </ion-col>
     </ion-row>
 
     <ion-row responsive-sm>
         <ion-col>
-            <ion-card class="image-card" (click)="goExhibitorPage()">
+            <ion-card class="image-card" (click)="goWhyExhibitor()">
                 <img src="assets/img/exhibitors.jpg"/>
             </ion-card>
         </ion-col>
         <ion-col>
 
-            <ion-card class="image-card" (click)="goStudentPage()">
+            <ion-card class="image-card" (click)="goWhyStudent()">
                 <img src="assets/img/visitors.jpg"/>
                 <!---->
             </ion-card>
         </ion-col>
     </ion-row>
 
-    <div style="height:300px;"></div>
+    <div style="height:150px;"></div>
 </ion-content>

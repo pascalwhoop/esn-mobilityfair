@@ -1,8 +1,5 @@
 page-about {
-  text-align: center;
-  ul{
-    text-align: left;
-  }
+
 
   ion-card.header-image-card {
 
@@ -41,6 +38,7 @@ page-about {
   }
 
   .image-card{
+    cursor: pointer;
     position: relative;
     text-align: center;
 

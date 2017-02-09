@@ -1,11 +1,11 @@
 <ion-header>
-    <ion-toolbar>
+    <ion-navbar>
         <ion-segment [(ngModel)]="filter.type" (ionChange)="applyFilters()">
             <ion-segment-button value="all">All</ion-segment-button>
             <ion-segment-button value="esn">ESN</ion-segment-button>
             <ion-segment-button value="partners">Partners</ion-segment-button>
         </ion-segment>
-    </ion-toolbar>
+    </ion-navbar>
 </ion-header>
 
 <ion-content>
@@ -27,21 +27,27 @@
 
 
 
-    <div *ngFor="let exhibitor of filteredExhibitors; let i = index">
-        <ion-row *ngIf="i%4==0" responsive-sm>
-            <ion-col >
-                <exhibitor-card [exhibitor]="filteredExhibitors[i]"></exhibitor-card>
-            </ion-col>
-            <ion-col >
-                <exhibitor-card [exhibitor]="filteredExhibitors[i+1]"></exhibitor-card>
-            </ion-col>
-            <ion-col >
-                <exhibitor-card [exhibitor]="filteredExhibitors[i+2]"></exhibitor-card>
-            </ion-col>
-            <ion-col >
-                <exhibitor-card [exhibitor]="filteredExhibitors[i+3]"></exhibitor-card>
+    <div>
+        <ion-row responsive-sm wrap>
+            <ion-col *ngFor="let exhibitor of filteredExhibitors; let i = index">
+                <exhibitor-card [exhibitor]="exhibitor"></exhibitor-card>
             </ion-col>
         </ion-row>
+
+        <!--<ion-row *ngIf="i%4==0" responsive-sm>-->
+            <!--<ion-col >-->
+                <!--<exhibitor-card [exhibitor]="filteredExhibitors[i]"></exhibitor-card>-->
+            <!--</ion-col>-->
+            <!--<ion-col >-->
+                <!--<exhibitor-card [exhibitor]="filteredExhibitors[i+1]"></exhibitor-card>-->
+            <!--</ion-col>-->
+            <!--<ion-col >-->
+                <!--<exhibitor-card [exhibitor]="filteredExhibitors[i+2]"></exhibitor-card>-->
+            <!--</ion-col>-->
+            <!--<ion-col >-->
+                <!--<exhibitor-card [exhibitor]="filteredExhibitors[i+3]"></exhibitor-card>-->
+            <!--</ion-col>-->
+        <!--</ion-row>-->
     </div>
 
 </ion-content>

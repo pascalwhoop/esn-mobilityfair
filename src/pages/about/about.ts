@@ -4,6 +4,7 @@ import {Http} from "@angular/http";
 import "rxjs/Rx";
 import {WhyExhibitorsPage} from "../why-exhibitors/why-exhibitors";
 import {WhyStudentsPage} from "../why-students/why-students";
+import {ExhibitorsPage} from "../exhibitors/exhibitors";
 
 /*
   Generated class for the About page.
@@ -22,11 +23,15 @@ export class AboutPage {
 
 
 
-  goExhibitorPage(){
+  goWhyExhibitor(){
     this.navCtrl.push(WhyExhibitorsPage)
   }
 
-  goStudentPage(){
+  goWhyStudent(){
     this.navCtrl.push(WhyStudentsPage)
+  }
+
+  goExhibitorsPage(){
+    this.navCtrl.push(ExhibitorsPage)
   }
 }
