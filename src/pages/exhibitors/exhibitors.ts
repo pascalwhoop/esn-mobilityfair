@@ -83,6 +83,7 @@ export class ExhibitorsPage {
                 this._allExhibitors = exhibitors.sort((a, b) => {
                     return (a.name < b.name ? -1 : (a.name > b.name ? 1 : 0));
                 });
+                this.fixImages();
                 this.filteredExhibitors = this._allExhibitors.slice(0);
             });
     }
@@ -112,13 +113,19 @@ export class ExhibitorsPage {
                 return item.code && f.type == 'esn' || !item.code && f.type == 'partners'
             })
         }
+        this.fixImages(150);
         return results;
     }
 
     ionViewDidLoad() {
         //fix for ion-img not loading the images otherwise
+        this.fixImages();
+    }
+
+    private fixImages(time?) {
+        time = time ? time : 100;
         var scroll = document.getElementsByTagName('page-exhibitors')[0].getElementsByClassName('scroll-content')[0]
-        setTimeout(()=> scroll.scrollTop = 2, 100);
+        setTimeout(() => scroll.scrollTop = 2, time);
     }
 
 }

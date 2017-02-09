@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
-
+  <!-- Allow web app to be run in full-screen mode. -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#4e8ef7">
-  
+
   <!-- cordova.js required for cordova apps -->
-  <script src="cordova.js"></script>
+  <!--<script src="cordova.js"></script>-->
 
   <!-- un-comment this code to enable service worker
   <script>
@@ -29,6 +30,8 @@
   <link rel="apple-touch-icon-precomposed" href="http://agm-germany.eu/wp-content/uploads/2016/09/cropped-logo-cropped-180x180.png">
   <meta name="msapplication-TileImage" content="http://agm-germany.eu/wp-content/uploads/2016/09/cropped-logo-cropped-270x270.png">
 
+  <!--google maps api must be loaded from their server-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqCNxDbWvt6UnqH5L-foYBX4NWF9u1Ty0" async defer></script>
 </head>
 <body>
 
@@ -40,6 +43,8 @@
 
   <!-- The bundle js is generated during the build process -->
   <script src="build/main.js"></script>
+
+
 
 </body>
 </html>

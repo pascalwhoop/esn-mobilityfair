@@ -4,21 +4,85 @@
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-    <ion-navbar>
-        <ion-title>Mobility Fair</ion-title>
-    </ion-navbar>
-</ion-header>
-
 <ion-content>
+    <ion-fab top right>
+        <language-switch-button></language-switch-button>
+    </ion-fab>
+
+    <div style="height:100px;"></div>
+    <ion-row>
+        <ion-col>
+                <h1>{{'Meet the Erasmus Generation' | trans}}</h1>
+
+            <p>
+                <span>{{'The Mobility Fair is a part of the Annual General Meeting of the Erasmus Student Network (ESN) - Europe’s biggest student association. It takes place on' | trans}}</span>
+                <strong>{{"21st of April, from 11 a.m. to 5 p.m." | trans}}</strong>
+                <span>{{"and is open to all interested parties." | trans}}</span>
+            </p>
+            <br>
+            <p>
+                <span>{{"During the Mobility Fair, professionals, graduates, and students meet in order to exchange information on attractive job offers and study opportunities. True to our motto" | trans}}</span>
+                <strong>{{"“Mobility is a Lifestyle”"| trans}}</strong>
+                <span>{{", we explicitly want to highlight the characteristics of the Erasmus generation: mobility, flexibility, and open-mindedness."| trans}}</span>
+            </p>
+            <br>
+            <p>
+                <span>{{"Those qualities are in high demand among all kinds of enterprises and organisations. The Mobility Fair offers a perfect opportunity to gather new contacts and network. Additionally, the fair serves as a platform for professionals looking for the next step in their career."| trans}}</span>
+            </p>
+        </ion-col>
+    </ion-row>
+
+    <ion-row responsive-sm wrap>
+        <ion-col width-50>
+            <directions-card></directions-card>
+        </ion-col>
+        <ion-col width-50>
+            <ion-card>
+                <ion-card-content>
+                    <ion-card-title>
+                        <span>{{"Who should attend the Mobility Fair?"|trans}}</span>
+                    </ion-card-title>
+
+                    <span>{{"Students and graduates looking for:"|trans}}</span>
+                    <ul>
+                        <li><span>{{"interesting master programs"|trans}}</span>
+                        </li>
+                        <li><span>{{"challenging internships"|trans}}</span>
+                        </li>
+                        <li><span>{{"perfect entry-level jobs"|trans}}</span>
+                        </li>
+                    </ul>
+
+                    <p>
+                        <span>{{"As well as all Berlin-based people looking for new opportunities"|trans}}</span>
+                    </p>
+
+                    <p>
+                        <span>{{"Find out more about AGM:"|trans}}</span>
+                    </p>
+
+                    <a ion-button clear icon-only href="https://www.facebook.com/AGMGermany2017/" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a ion-button clear icon-only target="_blank" href="https://twitter.com/agmgermany2017">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a ion-button clear icon-only target="blank" href="http://agm-germany.eu/">
+                        <ion-icon name="globe"></ion-icon>
+                    </a>
+
+                </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
 
     <ion-row>
         <!--<ion-col>-->
-            <!--<ion-card class="header-image-card ">-->
-                <!--<img src="assets/img/flag-parade.jpg"/>-->
-                <!--<div class="layover"></div>-->
-                <!--<div class="card-title">MOBILITY FAIR</div>-->
-            <!--</ion-card>-->
+        <!--<ion-card class="header-image-card ">-->
+        <!--<img src="assets/img/flag-parade.jpg"/>-->
+        <!--<div class="layover"></div>-->
+        <!--<div class="card-title">MOBILITY FAIR</div>-->
+        <!--</ion-card>-->
 
 
         <!--</ion-col>-->
@@ -26,68 +90,18 @@
 
     <ion-row responsive-sm>
         <ion-col>
-            <ion-card>
+            <ion-card class="image-card" (click)="goExhibitorPage()">
                 <img src="assets/img/exhibitors.jpg"/>
-                <ion-card-content>
-                    <ion-card-title>
-                        For Exhibitors
-                    </ion-card-title>
-                    <p>
-                        The Mobility Fair of the AGM 2017 is the place where universities, companies and students get in
-                        touch
-                        with each other and talk about future jobs and future stays abroad. Every university with an ESN
-                        section, right now more than 500, presents itself to the students and provides information about
-                        possible ERASMUS placements and degree programmes. Furthermore companies and organisations will
-                        introduce internships and job placements for students and graduates.
-                    </p>
-
-                    <button ion-button icon-left clear>
-                        <ion-icon name="share"></ion-icon>
-                        More
-                    </button>
-                </ion-card-content>
             </ion-card>
         </ion-col>
         <ion-col>
 
-            <ion-card>
+            <ion-card class="image-card" (click)="goStudentPage()">
                 <img src="assets/img/visitors.jpg"/>
-                <ion-card-content>
-                    <ion-card-title>
-                        For Visitors
-                    </ion-card-title>
-                    <p>You want to study abroad? You are looking for a job in another country? Find the perfect
-                        opportunity at
-                        our Mobility Fair!</p>
-                    <p>
-                        <strong>When:</strong> Friday, 21. April 2017 <br>
-                        <strong>Where:</strong> TU Berlin <br>
-                        <strong>Entry:</strong> free! <br>
-                        <br>
-                    </p>
-                    <p>The Mobility Fair of the AGM 2017 is the place where universities, companies and students get in
-                        touch
-                        with
-                        each other and talk about future jobs and future stays abroad. Every university with an ESN
-                        section,
-                        right
-                        now more than 500, presents itself to the students and provides information about possible
-                        ERASMUS
-                        placements and degree programmes. Furthermore companies and organisations will introduce
-                        internships and
-                        job placements for students and graduates.</p>
-                    <br>
-                    <p>Next to the different boothes we will provide interesting talks and workshops to get you ready
-                        for your
-                        future. So do not hesitate and take the first step to this unique opportunity.</p>
-
-                    <button ion-button icon-left clear>
-                        <ion-icon name="share"></ion-icon>
-                        More
-                    </button>
-                </ion-card-content>
+                <!---->
             </ion-card>
         </ion-col>
     </ion-row>
 
+    <div style="height:300px;"></div>
 </ion-content>

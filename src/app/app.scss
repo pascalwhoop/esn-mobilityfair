@@ -19,6 +19,9 @@
 }
 
 body {
+    overflow:scroll;
+    height:100.2%;
+    max-height: 100.2%;
   user-select: initial;
   -webkit-user-select: initial;
 }
@@ -29,7 +32,7 @@ body {
 }
 
 .scroll-content {
-  max-width: 1400px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -75,4 +78,3 @@ $fb-border: rgba(0, 0, 0, 0.2);
     border-color: $fb-border
   }
 }
-

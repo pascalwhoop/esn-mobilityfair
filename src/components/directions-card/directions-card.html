@@ -1,0 +1,46 @@
+<ion-card style="position:relative;">
+    <img src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=900x500&maptype=roadmap&key=AIzaSyAP1s6BaMDzMWXbvRwdK86IWL7R_WS48ew&markers=color:red%7Clabel:C%7C52.447724,13.278565"
+         alt="Map Screenshot">
+    <ion-fab right top>
+        <button ion-fab
+                (click)="openAddressInMaps('Freie Universität Berlin, Henry-Ford-Bau, Garystraße 35, 14195 Berlin-Dahlem')">
+            <ion-icon name="pin"></ion-icon>
+        </button>
+    </ion-fab>
+    <ion-card-content>
+        <ul>
+            <li><span>{{"When? April 21st, 11 a.m. - 5 p.m." | trans}}</span></li>
+            <li><span>{{"Where: Freie Universität Berlin, Henry-Ford-Bau, Garystraße 35, 14195 Berlin-Dahlem"| trans}}</span>
+            </li>
+        </ul>
+
+    </ion-card-content>
+    <ion-row wrap>
+        <ion-col width-33>
+            <a ion-button clear full icon-right download="AGM Germany.ics" href="assets/data/AGMGermany.ics">
+                <span>{{"iCal" | trans}}</span>
+                <ion-icon name="calendar"></ion-icon>
+            </a>
+        </ion-col>
+        <ion-col width-33>
+            <a ion-button clear full icon-right target="_blank" href="https://www.google.de/flights/#search;t=TXL,SXF,QPP,BER;d=2017-04-20;r=2017-04-24">
+                <span>{{"by plane" | trans}}</span>
+                <ion-icon name="plane"></ion-icon>
+            </a>
+        </ion-col>
+        <ion-col width-33>
+            <a ion-button clear full icon-right href="http://esn-germany.de/en/node/81" target="_blank">
+                <span>{{"by bus" | trans}}</span>
+                <ion-icon name="bus"></ion-icon>
+            </a>
+        </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col>
+            <a ion-button clear full icon-right href="https://www.google.com/maps/dir//Henry-Ford-Bau%2C%20Garystra%C3%9Fe%2035%2C%2014195%20Berlin-Dahlem" target="_blank">
+                {{drivingDistance}}<span>&nbsp;&nbsp;&nbsp;</span>{{drivingDuration}} <span>&nbsp;{{'by car'}}</span>
+                <ion-icon name="navigate"></ion-icon>
+            </a>
+        </ion-col>
+    </ion-row>
+</ion-card>

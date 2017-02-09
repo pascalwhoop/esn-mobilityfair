@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {Http} from "@angular/http";
-import {Observable} from "rxjs";
 import "rxjs/Rx";
+import {WhyExhibitorsPage} from "../why-exhibitors/why-exhibitors";
+import {WhyStudentsPage} from "../why-students/why-students";
 
 /*
   Generated class for the About page.
@@ -19,4 +20,13 @@ export class AboutPage {
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
   }
 
+
+
+  goExhibitorPage(){
+    this.navCtrl.push(WhyExhibitorsPage)
+  }
+
+  goStudentPage(){
+    this.navCtrl.push(WhyStudentsPage)
+  }
 }
