@@ -1,0 +1,21 @@
+@import "../../theme/variables";
+
+@media (min-width: 767px) {
+  mobile-navbar{
+    display: none !important;
+  }
+}
+
+mobile-navbar{
+  ion-col:first-child{
+    text-align: left;
+  }
+
+  ion-col:last-child{
+    text-align: right;
+  }
+
+  button{
+    background: color($colors, #808080) !important;
+  }
+}

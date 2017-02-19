@@ -1,0 +1,24 @@
+@import "../../theme/variables";
+combined-navbar {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  $margin: 4px;
+  $height: 38px;
+
+
+  h1,h2,h3,h4,h5{
+    margin-bottom: $margin;
+    margin-top: $margin;
+  }
+
+  a, button, p, span{
+    text-decoration: none;
+    color: color($colors, light) !important;
+    margin-top: 0 !important;;
+    margin-bottom: 0 !important;
+    height: $height !important;
+  }
+}

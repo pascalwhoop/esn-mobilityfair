@@ -1,0 +1,15 @@
+<desktop-navbar></desktop-navbar>
+<mobile-navbar (menu)="toggleMenu($event)"></mobile-navbar>
+<div *ngIf="menuToggle">
+    <p><a href="http://agm-germany.eu/">
+        <span>{{"AGM Website"|trans}}</span>
+    </a></p>
+    <p (click)="goWhyStudent()">
+        <span>
+            {{"For students"|trans}}
+        </span>
+    </p>
+    <p (click)="goWhyExhibitor()">
+            <span>{{"For exhibitors"|trans}}</span>
+    </p>
+</div>

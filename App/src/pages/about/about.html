@@ -1,0 +1,117 @@
+<!--
+  Generated template for the About page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+        <combined-navbar></combined-navbar>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+    <div style="height:100px;"></div>
+    <ion-row>
+        <ion-col>
+                <h1>{{"Meet the Erasmus Generation" | trans}}</h1>
+
+            <p>
+                <span>{{'The Mobility Fair is a part of the Annual General Meeting of the Erasmus Student Network (ESN) - Europe’s biggest student association. It takes place on' | trans}}</span>
+                <strong>{{"21st of April, from 11 a.m. to 5 p.m." | trans}}</strong>
+                <span>{{"and is open to all interested parties." | trans}}</span>
+            </p>
+            <br>
+            <p>
+                <span>{{"During the Mobility Fair, professionals, graduates, and students meet in order to exchange information on attractive job offers and study opportunities. True to our motto" | trans}}</span>
+                <strong>{{"“Mobility is a Lifestyle”"| trans}}</strong>
+                <span>{{", we explicitly want to highlight the characteristics of the Erasmus generation: mobility, flexibility, and open-mindedness."| trans}}</span>
+            </p>
+            <br>
+            <p>
+                <span>{{"Those qualities are in high demand among all kinds of enterprises and organisations. The Mobility Fair offers a perfect opportunity to gather new contacts and network. Additionally, the fair serves as a platform for professionals looking for the next step in their career."| trans}}</span>
+            </p>
+        </ion-col>
+    </ion-row>
+
+
+
+    <ion-row responsive-sm>
+        <ion-col>
+            <ion-card class="image-card" (click)="goWhyExhibitor()">
+                <img src="assets/img/exhibitors.jpg"/>
+            </ion-card>
+        </ion-col>
+        <ion-col>
+
+            <ion-card class="image-card" (click)="goWhyStudent()">
+                <img src="assets/img/visitors.jpg"/>
+                <!---->
+            </ion-card>
+        </ion-col>
+    </ion-row>
+
+    <ion-row responsive-sm wrap>
+        <ion-col width-50>
+            <ion-card>
+                <ion-card-content>
+                    <ion-card-title>
+                        <span>{{"Who should attend the Mobility Fair?"|trans}}</span>
+                    </ion-card-title>
+
+                    <span>{{"Students and graduates looking for:"|trans}}</span>
+                    <ul>
+                        <li><span>{{"interesting master programs"|trans}}</span>
+                        </li>
+                        <li><span>{{"challenging internships"|trans}}</span>
+                        </li>
+                        <li><span>{{"perfect entry-level jobs"|trans}}</span>
+                        </li>
+                    </ul>
+
+                    <p>
+                        <span>{{"As well as all Berlin-based people looking for new opportunities"|trans}}</span>
+                    </p>
+
+                    <p>
+                        <span>{{"Find out more about AGM:"|trans}}</span>
+                    </p>
+
+                    <a ion-button clear icon-only href="https://www.facebook.com/AGMGermany2017/" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a ion-button clear icon-only target="_blank" href="https://twitter.com/agmgermany2017">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a ion-button clear icon-only target="blank" href="http://agm-germany.eu/">
+                        <ion-icon name="globe"></ion-icon>
+                    </a>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card>
+                <ion-card-content>
+                    <ion-card-title>
+                        <span>{{"Come and meet over 500 ESN sections from all over Europe!"|trans}}</span>
+                    </ion-card-title>
+
+                    <p>
+                        <span>{{"Every section is sending someone to represent them during AGM. That means there are students from all over Europe, coming together in Berlin to discuss cultural exchange through student exchanges. Come and talk to them to find out what their unique cities have to offer."|trans}}</span>
+                    </p>
+                    <button ion-button full (click)="goSectionsPage()">
+                        <span>{{"Show all sections"|trans}}</span>
+                    </button>
+                </ion-card-content>
+            </ion-card>
+        </ion-col>
+        <ion-col width-50>
+            <directions-card></directions-card>
+        </ion-col>
+    </ion-row>
+
+
+    <div style="height:150px;"></div>
+</ion-content>

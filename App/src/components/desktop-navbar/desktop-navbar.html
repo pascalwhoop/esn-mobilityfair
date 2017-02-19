@@ -1,0 +1,17 @@
+<ion-row>
+    <ion-col>
+        <a ion-button clear href="http://agm-germany.eu/">
+                {{"AGM Website"|trans}}
+        </a>
+        <button ion-button clear (click)="goWhyExhibitor()">
+            {{'For exhibitors' | trans}}
+        </button>
+        <button ion-button clear (click)="goWhyStudent()">
+                {{"For students"|trans}}
+        </button>
+        <div style="float:right">
+            <language-switch-button></language-switch-button>
+        </div>
+    </ion-col>
+
+</ion-row>
