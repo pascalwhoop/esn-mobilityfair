@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {NavController} from "ionic-angular";
 import {WhyStudentsPage} from "../../pages/why-students/why-students";
 import {WhyExhibitorsPage} from "../../pages/why-exhibitors/why-exhibitors";
+import {PartnersPage} from "../../pages/partners-page/partners-page";
 
 /*
   Generated class for the DesktopNavbar component.
@@ -27,6 +28,9 @@ export class DesktopNavbarComponent {
 
   goWhyStudent(){
     this.navCtrl.push(WhyStudentsPage)
+  }
+  goPartners(){
+    this.navCtrl.push(PartnersPage)
   }
 
 }

@@ -1,4 +1,4 @@
-import {IExhibitor} from "./Exhibitor";
+import {IExhibitor} from "./IExhibitor";
 export interface ISection extends IExhibitor{
     country: string;
 }

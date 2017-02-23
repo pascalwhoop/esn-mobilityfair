@@ -1,9 +1,10 @@
 import {Component} from "@angular/core";
 import {Input} from "@angular/core/src/metadata/directives";
-import {IExhibitor} from "../../model/Exhibitor";
+import {IExhibitor} from "../../model/IExhibitor";
 import {CustomLogoList} from "../../providers/custom-logo-list";
 import {ModalController} from "ionic-angular";
-import {ExhibitorModalPage} from "../../pages/exhibitor-modal/exhibitor-modal";
+import {SectionModal} from "../../pages/section-modal/section-modal";
+
 
 /*
  Generated class for the ExhibitorCard component.
@@ -28,7 +29,7 @@ export class ExhibitorCardComponent {
     }
 
     showModal(exhibitor: IExhibitor) {
-        let modal = this.modal.create(ExhibitorModalPage, {exhibitor: exhibitor});
+        let modal = this.modal.create(SectionModal, {exhibitor: exhibitor});
         modal.present();
 
     }

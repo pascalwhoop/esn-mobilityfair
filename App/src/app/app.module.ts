@@ -5,7 +5,6 @@ import {AboutPage} from "../pages/about/about";
 import {ProgramPage} from "../pages/program/program";
 import {ExhibitorCardComponent} from "../components/exhibitor-card/exhibitor-card";
 import {CustomLogoList} from "../providers/custom-logo-list";
-import {ExhibitorModalPage} from "../pages/exhibitor-modal/exhibitor-modal";
 import {UiTextProvider} from "../providers/ui-text-provider";
 import {LangExpandPipe} from "../pipes/lang-expand-pipe";
 import {TranslatePipe} from "../pipes/translate-pipe";
@@ -18,6 +17,9 @@ import {CombinedNavbarComponent} from "../components/combined-navbar/combined-na
 import {MobileNavbarComponent} from "../components/mobile-navbar/mobile-navbar";
 import {EsnSectionsPage} from "../pages/esn-sections/esn-sections";
 import {ExhibitorsPage} from "../pages/exhibitors/exhibitors";
+import {SectionModal} from "../pages/section-modal/section-modal";
+import {PartnerOverviewPage} from "../pages/partner-overview/partner-overview";
+import {PartnersPage} from "../pages/partners-page/partners-page";
 
 @NgModule({
     declarations: [
@@ -28,12 +30,14 @@ import {ExhibitorsPage} from "../pages/exhibitors/exhibitors";
         ExhibitorsPage,
         //components
         ExhibitorCardComponent,
-        ExhibitorModalPage,
+        SectionModal,
         LanguageSwitchButtonComponent,
         //pipes
         LangExpandPipe,
         TranslatePipe,
         WhyExhibitorsPage,
+        PartnerOverviewPage,
+        PartnersPage,
         WhyStudentsPage,
         DirectionsCardComponent,
         DesktopNavbarComponent,
@@ -57,11 +61,13 @@ import {ExhibitorsPage} from "../pages/exhibitors/exhibitors";
         AboutPage,
         ProgramPage,
         EsnSectionsPage,
+        PartnerOverviewPage,
+        PartnersPage,
         ExhibitorsPage,
         //components
         ExhibitorCardComponent,
         LanguageSwitchButtonComponent,
-        ExhibitorModalPage,
+        SectionModal,
         WhyExhibitorsPage,
         WhyStudentsPage,
         DirectionsCardComponent,
