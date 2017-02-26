@@ -1,0 +1,15 @@
+{
+  "name": "country-svg-name-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nameconverter.js",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

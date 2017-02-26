@@ -16,10 +16,11 @@ import {DesktopNavbarComponent} from "../components/desktop-navbar/desktop-navba
 import {CombinedNavbarComponent} from "../components/combined-navbar/combined-navbar";
 import {MobileNavbarComponent} from "../components/mobile-navbar/mobile-navbar";
 import {EsnSectionsPage} from "../pages/esn-sections/esn-sections";
-import {ExhibitorsPage} from "../pages/exhibitors/exhibitors";
 import {SectionModal} from "../pages/section-modal/section-modal";
-import {PartnerOverviewPage} from "../pages/partner-overview/partner-overview";
 import {PartnersPage} from "../pages/partners-page/partners-page";
+import {UniversitiesOverviewPage} from "../pages/universities-overview/universities-overview";
+import {PartnersOverviewPage} from "../pages/partners-overview/partners-overview";
+import {ObjectToArrayPipe} from "../pipes/ObjectToArrayPipe";
 
 @NgModule({
     declarations: [
@@ -27,17 +28,18 @@ import {PartnersPage} from "../pages/partners-page/partners-page";
         AboutPage,
         ProgramPage,
         EsnSectionsPage,
-        ExhibitorsPage,
         //components
         ExhibitorCardComponent,
         SectionModal,
         LanguageSwitchButtonComponent,
         //pipes
         LangExpandPipe,
+        ObjectToArrayPipe,
         TranslatePipe,
         WhyExhibitorsPage,
-        PartnerOverviewPage,
+        PartnersOverviewPage,
         PartnersPage,
+        UniversitiesOverviewPage,
         WhyStudentsPage,
         DirectionsCardComponent,
         DesktopNavbarComponent,
@@ -61,9 +63,9 @@ import {PartnersPage} from "../pages/partners-page/partners-page";
         AboutPage,
         ProgramPage,
         EsnSectionsPage,
-        PartnerOverviewPage,
+        PartnersOverviewPage,
         PartnersPage,
-        ExhibitorsPage,
+        UniversitiesOverviewPage,
         //components
         ExhibitorCardComponent,
         LanguageSwitchButtonComponent,

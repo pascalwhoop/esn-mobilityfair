@@ -4,7 +4,6 @@ import {Http} from "@angular/http";
 import "rxjs/Rx";
 import {WhyExhibitorsPage} from "../why-exhibitors/why-exhibitors";
 import {WhyStudentsPage} from "../why-students/why-students";
-import {ExhibitorsPage} from "../exhibitors/exhibitors";
 import {EsnSectionsPage} from "../esn-sections/esn-sections";
 
 /*
@@ -32,10 +31,7 @@ export class AboutPage {
   goWhyStudent(){
     this.navCtrl.push(WhyStudentsPage)
   }
-
-  goExhibitorsPage(){
-    this.navCtrl.push(ExhibitorsPage)
-  }
+  
 
   goSectionsPage(){
     this.navCtrl.push(EsnSectionsPage)

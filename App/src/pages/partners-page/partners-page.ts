@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {IExhibitor} from "../../model/IExhibitor";
-import {PartnerOverviewPage} from "../partner-overview/partner-overview";
+import {PartnersOverviewPage} from "../partners-overview/partners-overview";
 
 /*
   Generated class for the PartnersPage page.
@@ -33,7 +33,7 @@ export class PartnersPage {
   ];
 
   goPartner(partner: IExhibitor){
-    this.navCtrl.push(PartnerOverviewPage, {partner: partner})
+    this.navCtrl.push(PartnersOverviewPage, {partner: partner})
   }
 
 }
