@@ -36860,3 +36860,7 @@ page-exhibitor-modal .logo {
   margin-right: auto;
   display: block;
 }
+
+page-universities-overview .country-shape-card img {
+  fill: green;
+}

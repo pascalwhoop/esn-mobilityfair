@@ -14,12 +14,14 @@
 <ion-content padding>
   <ion-row wrap responsive-sm>
     <ion-col *ngFor="let country of (sectionsPerCountry | ota)">
-      <ion-card>
+      <ion-card class="country-shape-card">
+        <img src="assets/img/country_shapes/{{country[0].country}}.svg" alt="">
         <ion-card-content>
+          <ion-card-header>
+            {{countries[country[0].country]}}
+          </ion-card-header>
           <ul>
-            <li *ngFor="let section of country">
-              {{section.name}}
-            </li>
+            <li>Sections: {{country.length}}</li>
           </ul>
         </ion-card-content>
       </ion-card>
