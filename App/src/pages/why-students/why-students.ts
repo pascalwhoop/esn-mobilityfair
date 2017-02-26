@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {UniversitiesOverviewPage} from "../universities-overview/universities-overview";
 
 /*
   Generated class for the WhyStudents page.
@@ -17,6 +18,10 @@ export class WhyStudentsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad WhyStudentsPage');
+  }
+
+  goUniversitiesOverview(){
+    this.navCtrl.push(UniversitiesOverviewPage)
   }
 
 }

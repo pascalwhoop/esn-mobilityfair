@@ -156,7 +156,6 @@ export class CustomLogoList {
         "GR-THES-TEI",
         "HR-DUBR-ESN",
         "HR-RIJE-ESN",
-        "HR-SPLI-ESN",
         "HU-BUPE-COR",
         "HU-BUPE-ELT",
         "HU-BUPE-IBS",

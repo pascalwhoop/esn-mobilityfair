@@ -1,7 +1,29 @@
 page-universities-overview {
-  .country-shape-card{
-    img{
+  .country-shape-card {
+    min-width:220px;
+    img {
       fill: green;
+      height: 161px;
+
+    }
+
+    position: relative;
+    text-align: center;
+
+    .card-title {
+      position: absolute;
+      top: 36%;
+      font-size: 2.0em;
+      margin: 0 10%;
+      width: 80%;
+    }
+
+    .card-subtitle {
+      font-size: 1.0em;
+      position: absolute;
+      top: 52%;
+      width: 100%;
     }
   }
+
 }

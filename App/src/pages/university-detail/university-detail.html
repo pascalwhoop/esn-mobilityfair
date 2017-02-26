@@ -1,0 +1,32 @@
+<!--
+  Generated template for the UniversityDetail page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+        <combined-navbar></combined-navbar>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <img src="assets/logos/{{section.code}}.png" alt="" *ngIf="hasCustomLogo(section.code)">
+
+    <h1>{{section.city}}</h1>
+
+    <p>{{section.university}}</p>
+
+    <p><strong>ESN Section: </strong>{{section.name}}</p>
+
+    <a *ngIf="section.university" ion-button outline target="_blank" [href]="buildUniWebsiteUrl(section)">
+        <span>{{"University Website"|trans}}</span>
+    </a>
+
+    <a *ngIf="section.url" ion-button outline target="_blank" [href]="buildSectionUrl(section)">
+        <span>{{"Local ESN Section"|trans}}</span>
+    </a>
+
+
+</ion-content>

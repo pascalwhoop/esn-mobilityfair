@@ -3,7 +3,6 @@ import {IonicApp, IonicModule, IonicErrorHandler} from "ionic-angular";
 import {MyApp} from "./app.component";
 import {AboutPage} from "../pages/about/about";
 import {ProgramPage} from "../pages/program/program";
-import {ExhibitorCardComponent} from "../components/exhibitor-card/exhibitor-card";
 import {CustomLogoList} from "../providers/custom-logo-list";
 import {UiTextProvider} from "../providers/ui-text-provider";
 import {LangExpandPipe} from "../pipes/lang-expand-pipe";
@@ -15,29 +14,28 @@ import {DirectionsCardComponent} from "../components/directions-card/directions-
 import {DesktopNavbarComponent} from "../components/desktop-navbar/desktop-navbar";
 import {CombinedNavbarComponent} from "../components/combined-navbar/combined-navbar";
 import {MobileNavbarComponent} from "../components/mobile-navbar/mobile-navbar";
-import {EsnSectionsPage} from "../pages/esn-sections/esn-sections";
-import {SectionModal} from "../pages/section-modal/section-modal";
 import {PartnersPage} from "../pages/partners-page/partners-page";
 import {UniversitiesOverviewPage} from "../pages/universities-overview/universities-overview";
 import {PartnersOverviewPage} from "../pages/partners-overview/partners-overview";
 import {ObjectToArrayPipe} from "../pipes/ObjectToArrayPipe";
+import {CountryModalPage} from "../pages/country-modal/country-modal";
+import {UniversityDetailPage} from "../pages/university-detail/university-detail";
 
 @NgModule({
     declarations: [
         MyApp,
         AboutPage,
         ProgramPage,
-        EsnSectionsPage,
         //components
-        ExhibitorCardComponent,
-        SectionModal,
         LanguageSwitchButtonComponent,
         //pipes
         LangExpandPipe,
         ObjectToArrayPipe,
         TranslatePipe,
         WhyExhibitorsPage,
+        CountryModalPage,
         PartnersOverviewPage,
+        UniversityDetailPage,
         PartnersPage,
         UniversitiesOverviewPage,
         WhyStudentsPage,
@@ -62,14 +60,13 @@ import {ObjectToArrayPipe} from "../pipes/ObjectToArrayPipe";
         MyApp,
         AboutPage,
         ProgramPage,
-        EsnSectionsPage,
         PartnersOverviewPage,
+        UniversityDetailPage,
         PartnersPage,
         UniversitiesOverviewPage,
+        CountryModalPage,
         //components
-        ExhibitorCardComponent,
         LanguageSwitchButtonComponent,
-        SectionModal,
         WhyExhibitorsPage,
         WhyStudentsPage,
         DirectionsCardComponent,

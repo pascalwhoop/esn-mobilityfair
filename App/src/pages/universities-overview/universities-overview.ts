@@ -1,7 +1,9 @@
 import {Component} from "@angular/core";
-import {NavController, NavParams} from "ionic-angular";
+import {NavController, NavParams, ModalController} from "ionic-angular";
 import {IExhibitor} from "../../model/IExhibitor";
 import {Http} from "@angular/http";
+import {CountryModalPage} from "../country-modal/country-modal";
+import {UniversityDetailPage} from "../university-detail/university-detail";
 
 /*
  Generated class for the UniversitiesOverview page.
@@ -18,12 +20,26 @@ export class UniversitiesOverviewPage {
     sections: Array<IExhibitor>;
     sectionsPerCountry: Map<string, IExhibitor[]>;
 
-    constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
+    constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http, public modal: ModalController) {
         this.fetchSections()
     }
 
     ionViewDidLoad() {
         console.log('ionViewDidLoad UniversitiesOverviewPage');
+    }
+
+
+    goCountry(country: IExhibitor[]) {
+        let modal = this.modal.create(CountryModalPage, {country: country, countryName: this.countries[country[0].country]});
+        modal.onDidDismiss((data) =>{
+            if(data) this.goUniversity(data.section)
+        });
+
+        modal.present();
+    }
+
+    goUniversity(section: IExhibitor){
+        this.navCtrl.push(UniversityDetailPage, {section: section});
     }
 
     private fetchSections() {

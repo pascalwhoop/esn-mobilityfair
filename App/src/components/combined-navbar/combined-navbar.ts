@@ -3,6 +3,7 @@ import {WhyStudentsPage} from "../../pages/why-students/why-students";
 import {WhyExhibitorsPage} from "../../pages/why-exhibitors/why-exhibitors";
 import {NavController} from "ionic-angular";
 import {PartnersPage} from "../../pages/partners-page/partners-page";
+import {UniversitiesOverviewPage} from "../../pages/universities-overview/universities-overview";
 
 /*
   Generated class for the CombinedNavbar component.
@@ -41,6 +42,10 @@ export class CombinedNavbarComponent {
   goPartners(){
     this.navCtrl.push(PartnersPage)
     this.menuToggle = false;
+  }
+
+  goUniversitiesOverview(){
+    this.navCtrl.push(UniversitiesOverviewPage)
   }
 
 }

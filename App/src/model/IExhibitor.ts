@@ -5,6 +5,7 @@ export interface IExhibitor{
     address?: string;
     city: string;
     country?: string;
+    university?:string;
     tagline?: string;
     description?: string;
     snippetUrl?: string;

@@ -10,8 +10,7 @@ import {UniversitiesOverviewPage} from "../pages/universities-overview/universit
     templateUrl: 'app.html'
 })
 export class MyApp {
-    //rootPage = AboutPage;
-    rootPage = UniversitiesOverviewPage;
+    rootPage = AboutPage;
 
     reloading = false;
 

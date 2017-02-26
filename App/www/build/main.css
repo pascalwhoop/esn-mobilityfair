@@ -31945,33 +31945,6 @@ directions-card .navButton a {
   width: 100%;
 }
 
-exhibitor-card {
-  min-width: 300px;
-  display: block;
-}
-
-exhibitor-card ion-img {
-  padding: 5px;
-  height: 98px;
-  width: 100%;
-  background: transparent;
-}
-
-exhibitor-card ion-img img {
-  height: 100%;
-  width: initial;
-  display: block;
-  margin: auto;
-}
-
-exhibitor-card img {
-  padding: 5px;
-  height: 98px;
-  width: initial;
-  display: block;
-  margin: auto;
-}
-
 language-switch-button {
   display: inline-block;
 }
@@ -36818,10 +36791,9 @@ page-about .image-card .card-subtitle {
   color: #fff;
 }
 
-page-exhibitors ion-row {
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+page-country-modal .hard-corners img, page-country-modal .hard-corners ion-img {
+  border-radius: 0;
+  height: initial;
 }
 
 page-partners-overview .injectedHTML p {
@@ -36854,13 +36826,28 @@ partners-page ion-card ion-card-content * {
   text-align: left !important;
 }
 
-page-exhibitor-modal .logo {
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+page-universities-overview .country-shape-card {
+  min-width: 220px;
+  position: relative;
+  text-align: center;
 }
 
 page-universities-overview .country-shape-card img {
   fill: green;
+  height: 161px;
+}
+
+page-universities-overview .country-shape-card .card-title {
+  position: absolute;
+  top: 36%;
+  font-size: 2.0em;
+  margin: 0 10%;
+  width: 80%;
+}
+
+page-universities-overview .country-shape-card .card-subtitle {
+  font-size: 1.0em;
+  position: absolute;
+  top: 52%;
+  width: 100%;
 }

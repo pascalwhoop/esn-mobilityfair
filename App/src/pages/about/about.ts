@@ -4,7 +4,6 @@ import {Http} from "@angular/http";
 import "rxjs/Rx";
 import {WhyExhibitorsPage} from "../why-exhibitors/why-exhibitors";
 import {WhyStudentsPage} from "../why-students/why-students";
-import {EsnSectionsPage} from "../esn-sections/esn-sections";
 
 /*
   Generated class for the About page.
@@ -33,7 +32,4 @@ export class AboutPage {
   }
   
 
-  goSectionsPage(){
-    this.navCtrl.push(EsnSectionsPage)
-  }
 }
