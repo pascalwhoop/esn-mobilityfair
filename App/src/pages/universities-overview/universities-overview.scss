@@ -1,5 +1,9 @@
 page-universities-overview {
+  
+
   .country-shape-card {
+    cursor: pointer;
+    padding: 10px;
     min-width:220px;
     img {
       fill: green;
@@ -14,8 +18,8 @@ page-universities-overview {
       position: absolute;
       top: 36%;
       font-size: 2.0em;
-      margin: 0 10%;
-      width: 80%;
+
+      width: calc(100% - 32px);
     }
 
     .card-subtitle {

@@ -11,10 +11,10 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
     <ion-row wrap>
-        <ion-col *ngFor="let country of (sectionsPerCountry | ota)">
-            <ion-card class="country-shape-card" (click)="goCountry(country)">
+        <ion-col *ngFor="let country of (sectionsPerCountry | ota)" class="country-shape-col">
+            <ion-card class="country-shape-card" (click)="goCountry(country)" padding>
 
                 <img src="assets/img/country_shapes/{{country[0].country}}.svg" alt="">
                 <p class="card-title">

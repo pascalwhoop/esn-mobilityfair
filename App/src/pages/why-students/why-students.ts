@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import {Component} from "@angular/core";
+import {NavController, NavParams, App, DeepLinker} from "ionic-angular";
 import {UniversitiesOverviewPage} from "../universities-overview/universities-overview";
+import {MyApp} from "../../app/app.component";
+import {PartnersPage} from "../partners-page/partners-page";
 
 /*
   Generated class for the WhyStudents page.
@@ -14,10 +16,16 @@ import {UniversitiesOverviewPage} from "../universities-overview/universities-ov
 })
 export class WhyStudentsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  targets ={
+    exhibitors: PartnersPage,
+    universities: UniversitiesOverviewPage
+  }
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, public app : App, public deepLinker: DeepLinker) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad WhyStudentsPage');
+    console.log(this.app.getActiveNav().getActive().name);
+    console.log(this.navCtrl.getActive().name);
   }
 
   goUniversitiesOverview(){

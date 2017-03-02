@@ -8,3 +8,23 @@
         <language-switch-button></language-switch-button>
     </ion-col>
 </ion-row>
+<div *ngIf="menuToggle">
+    <p><a href="http://agm-germany.eu/">
+        <span>{{"AGM Website"|trans}}</span>
+    </a></p>
+    <!--<p (click)="goWhyStudent()">
+        <span>
+            {{"For students"|trans}}
+        </span>
+    </p>
+    <p (click)="goWhyExhibitor()">
+            <span>{{"For exhibitors"|trans}}</span>
+    </p>-->
+    <p (click)="goPartners()">
+        <span>{{"Exhibitors"|trans}}</span>
+    </p>
+
+    <p (click)="goUniversitiesOverview()">
+        <span>{{"Universities"|trans}}</span>
+    </p>
+</div>

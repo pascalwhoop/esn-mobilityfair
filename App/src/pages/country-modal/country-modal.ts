@@ -2,7 +2,6 @@ import {Component} from "@angular/core";
 import {NavParams, ViewController, NavController} from "ionic-angular";
 import {IExhibitor} from "../../model/IExhibitor";
 import {CustomLogoList} from "../../providers/custom-logo-list";
-import {UniversityDetailPage} from "../university-detail/university-detail";
 
 /*
  Generated class for the CountryModal page.

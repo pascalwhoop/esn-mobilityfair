@@ -35,9 +35,14 @@ body {
   }
 }
 
-.ion-page{
+
+ion-content.content{
   background: url('../assets/img/flag-parade.jpg');
   background-size: cover;
+
+}
+
+.ion-page{
 
   text-align: center;
   ion-card{
@@ -93,5 +98,14 @@ $fb-border: rgba(0, 0, 0, 0.2);
   &[disabled] {
     background-color: $fb-blue;
     border-color: $fb-border
+  }
+}
+
+/*fix for ios*/
+@media (max-width: 476px) {
+  ion-row[wrap] {
+    ion-col {
+      flex-basis: 100%;
+    }
   }
 }

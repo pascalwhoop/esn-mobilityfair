@@ -27,7 +27,7 @@ export class UniversityDetailPage {
 
     buildUniWebsiteUrl(section: IExhibitor) {
         let base = 'http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=';
-        let encodedUni = encodeURIComponent(section.university);
+        let encodedUni = encodeURIComponent(section.university + ' university');
         return base+encodedUni;
     }
 

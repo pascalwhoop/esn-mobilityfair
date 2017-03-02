@@ -5,17 +5,22 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
     <ion-navbar>
+        <combined-navbar></combined-navbar>
     </ion-navbar>
-
 </ion-header>
 
 
-<ion-content padding>
-    <p>We're translating this page into both languages right now. Come back next week and we'll be done!</p>
+<ion-content>
 
-    <button ion-button outline (click)="goUniversitiesOverview()">
-        <span>{{"Search for Universities"|trans}}</span>
-    </button>
+    <!--align-items-center style="height:100%"-->
+    <ion-row wrap >
+        <ion-col>
+            <nav-img-card [imgUrl]="'assets/img/universities_thumb.jpg'" [cardText]="'Search for Universities'" [navPush]="targets.universities" class="go-uni"></nav-img-card>
+        </ion-col>
+        <ion-col>
+            <nav-img-card [imgUrl]="'assets/img/exhibitors_thumb.jpg'" [cardText]="'Our Exhibitors'" [navPush]="targets.exhibitors"></nav-img-card>
+        </ion-col>
+    </ion-row>
+
 </ion-content>

@@ -16,10 +16,11 @@ import {CombinedNavbarComponent} from "../components/combined-navbar/combined-na
 import {MobileNavbarComponent} from "../components/mobile-navbar/mobile-navbar";
 import {PartnersPage} from "../pages/partners-page/partners-page";
 import {UniversitiesOverviewPage} from "../pages/universities-overview/universities-overview";
-import {PartnersOverviewPage} from "../pages/partners-overview/partners-overview";
 import {ObjectToArrayPipe} from "../pipes/ObjectToArrayPipe";
 import {CountryModalPage} from "../pages/country-modal/country-modal";
 import {UniversityDetailPage} from "../pages/university-detail/university-detail";
+import {NavImgCardComponent} from "../components/nav-img-card/nav-img-card";
+import {PartnerDetailPage} from "../pages/partner-detail/partner-detail";
 
 @NgModule({
     declarations: [
@@ -34,45 +35,47 @@ import {UniversityDetailPage} from "../pages/university-detail/university-detail
         TranslatePipe,
         WhyExhibitorsPage,
         CountryModalPage,
-        PartnersOverviewPage,
+        PartnerDetailPage,
         UniversityDetailPage,
         PartnersPage,
         UniversitiesOverviewPage,
         WhyStudentsPage,
         DirectionsCardComponent,
+        NavImgCardComponent,
         DesktopNavbarComponent,
         MobileNavbarComponent,
         CombinedNavbarComponent
 
     ],
     imports: [
-        IonicModule.forRoot(MyApp, {
-            platforms: {
-                android: {
-                    tabsPlacement: 'top'
-                }
-            },
-            pageTransition: 'md-transition'
-        })
+        IonicModule.forRoot(MyApp, {},
+            {
+                links: [
+                    {component: AboutPage, name: 'Home', segment: 'home'},
+                    {component: UniversitiesOverviewPage, name: 'Universities', segment: 'universities', defaultHistory: [AboutPage]},
+                    {component: UniversityDetailPage, name: "UniversityDetail", segment: "detail/:sectionId", defaultHistory: [AboutPage]},
+                    {component: WhyStudentsPage, name: 'WhyStudents', segment: 'why-students', defaultHistory: [AboutPage]},
+                    {component: WhyExhibitorsPage, name: "WhyExhibitors", segment: "why-exhibitors", defaultHistory: [AboutPage]},
+                    {component: PartnersPage, name: "Partners", segment: "partners", defaultHistory: [AboutPage]},
+                    {component: PartnerDetailPage, name: "PartnerDetail", segment: "detail/:partnerId", defaultHistory: [AboutPage]},
+
+                ]
+            })
     ],
     bootstrap: [IonicApp],
     entryComponents: [
         MyApp,
         AboutPage,
         ProgramPage,
-        PartnersOverviewPage,
+        PartnerDetailPage,
         UniversityDetailPage,
         PartnersPage,
         UniversitiesOverviewPage,
         CountryModalPage,
-        //components
-        LanguageSwitchButtonComponent,
         WhyExhibitorsPage,
         WhyStudentsPage,
-        DirectionsCardComponent,
-        DesktopNavbarComponent,
-        MobileNavbarComponent,
-        CombinedNavbarComponent
+        //components
+        
 
     ],
     providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, CustomLogoList, UiTextProvider]

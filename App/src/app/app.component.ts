@@ -3,7 +3,6 @@ import {Platform} from "ionic-angular";
 import {StatusBar, Splashscreen} from "ionic-native";
 import {UiTextProvider} from "../providers/ui-text-provider";
 import {AboutPage} from "../pages/about/about";
-import {UniversitiesOverviewPage} from "../pages/universities-overview/universities-overview";
 
 
 @Component({
@@ -11,6 +10,7 @@ import {UniversitiesOverviewPage} from "../pages/universities-overview/universit
 })
 export class MyApp {
     rootPage = AboutPage;
+    //rootPage = WhyStudentsPage;
 
     reloading = false;
 

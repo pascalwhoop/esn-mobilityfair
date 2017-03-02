@@ -1,5 +1,6 @@
 partners-page {
-  ion-card{
+  ion-card.partner-card{
+    margin:auto;
     max-width: 400px !important;
     ion-card-content *{
       text-align: left !important;

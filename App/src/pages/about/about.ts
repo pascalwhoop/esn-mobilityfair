@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import {Component} from "@angular/core";
+import {NavController, NavParams, App} from "ionic-angular";
 import {Http} from "@angular/http";
 import "rxjs/Rx";
 import {WhyExhibitorsPage} from "../why-exhibitors/why-exhibitors";
@@ -17,14 +17,15 @@ import {WhyStudentsPage} from "../why-students/why-students";
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
-    
-  }
 
+  constructor(public navCtrl: NavController, public http: Http,public app: App) {
+    this.app._setRootNav(this.navCtrl)
+  }
 
 
   goWhyExhibitor(){
     this.navCtrl.push(WhyExhibitorsPage)
+    
   }
 
   goWhyStudent(){

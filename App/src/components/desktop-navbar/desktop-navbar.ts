@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import {Component} from "@angular/core";
 import {NavController} from "ionic-angular";
 import {WhyStudentsPage} from "../../pages/why-students/why-students";
 import {WhyExhibitorsPage} from "../../pages/why-exhibitors/why-exhibitors";
 import {PartnersPage} from "../../pages/partners-page/partners-page";
 import {UniversitiesOverviewPage} from "../../pages/universities-overview/universities-overview";
+import {AboutPage} from "../../pages/about/about";
 
 /*
   Generated class for the DesktopNavbar component.
@@ -21,6 +22,14 @@ export class DesktopNavbarComponent {
 
   constructor(private navCtrl: NavController) {
 
+  }
+
+  isHome():boolean{
+    return this.navCtrl.getActive().name == 'AboutPage';
+  }
+
+  goHome(){
+    this.navCtrl.setRoot(AboutPage);
   }
 
   goWhyExhibitor(){

@@ -1,19 +1,22 @@
 <ion-row>
-    <ion-col>
+    <ion-col class="left" width-20="">
+        <button ion-button clear (click)="goHome()" *ngIf="!isHome()">{{"Home"|trans}}</button>
+    </ion-col>
+    <ion-col class="right" width-80="">
         <a ion-button clear href="http://agm-germany.eu/">
                 {{"AGM Website"|trans}}
         </a>
-        <button ion-button clear (click)="goWhyExhibitor()">
-            {{'For exhibitors' | trans}}
+        <!--<button ion-button clear (click)="goWhyExhibitor()">
+            {{"For exhibitors" | trans}}
         </button>
         <button ion-button clear (click)="goWhyStudent()">
                 {{"For students"|trans}}
-        </button>
+        </button>-->
         <button ion-button clear (click)="goUniversitiesOverview()">
             {{"Universities"|trans}}
         </button>
         <button ion-button clear (click)="goPartners()">
-            {{"Partners"|trans}}
+            {{"Exhibitors"|trans}}
         </button>
         
         <div style="float:right">

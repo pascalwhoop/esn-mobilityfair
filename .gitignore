@@ -3,3 +3,4 @@ csvjsonconverter/data_out/
 csvjsonconverter/dist
 csvjsonconverter/typings
 **/node_modules/
+.DS_STORE

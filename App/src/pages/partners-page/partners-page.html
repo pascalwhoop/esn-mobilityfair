@@ -13,11 +13,13 @@
 
 <ion-content>
 
-    <h1>Our Partners: </h1>
+    <h1>
+        <span>{{"Our Exhibitors"|trans}}</span>
+    </h1>
 
     <ion-row responsive-md wrap>
         <ion-col *ngFor="let partner of partners">
-            <ion-card>
+            <ion-card class="partner-card">
                 <img [src]="partner.imageUrl" (click)="goPartner(partner)" />
                 <ion-card-content>
                     <ion-card-title>

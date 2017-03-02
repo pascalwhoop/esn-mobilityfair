@@ -1,9 +1,4 @@
-import { Component } from '@angular/core';
-import {WhyStudentsPage} from "../../pages/why-students/why-students";
-import {WhyExhibitorsPage} from "../../pages/why-exhibitors/why-exhibitors";
-import {NavController} from "ionic-angular";
-import {PartnersPage} from "../../pages/partners-page/partners-page";
-import {UniversitiesOverviewPage} from "../../pages/universities-overview/universities-overview";
+import {Component} from "@angular/core";
 
 /*
   Generated class for the CombinedNavbar component.
@@ -17,35 +12,8 @@ import {UniversitiesOverviewPage} from "../../pages/universities-overview/univer
 })
 export class CombinedNavbarComponent {
 
-
-  menuToggle: boolean = false;
-  
-  constructor(private navCtrl: NavController) {
+  constructor() {
   }
 
-
-
-  toggleMenu(menuToggle){
-    this.menuToggle = !this.menuToggle;
-  }
-
-  goWhyExhibitor(){
-    this.navCtrl.push(WhyExhibitorsPage)
-    this.menuToggle = false;
-  }
-
-  goWhyStudent(){
-    this.navCtrl.push(WhyStudentsPage)
-    this.menuToggle = false;
-  }
-
-  goPartners(){
-    this.navCtrl.push(PartnersPage)
-    this.menuToggle = false;
-  }
-
-  goUniversitiesOverview(){
-    this.navCtrl.push(UniversitiesOverviewPage)
-  }
 
 }

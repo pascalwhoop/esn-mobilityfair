@@ -1,15 +1,17 @@
-
-
 @media (max-width: 766px) {
-  desktop-navbar{
+  desktop-navbar {
     display: none !important;
   }
 }
 
 desktop-navbar {
+  .left {
+    text-align: left;
+  }
 
-
-  text-align: right;
+  .right {
+    text-align: right;
+  }
 
 }
 

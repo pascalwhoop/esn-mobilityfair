@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import {Component} from "@angular/core";
+import {NavController, NavParams} from "ionic-angular";
 import {IExhibitor} from "../../model/IExhibitor";
-import {PartnersOverviewPage} from "../partners-overview/partners-overview";
+import {PartnerDetailPage} from "../partner-detail/partner-detail";
+
 
 /*
   Generated class for the PartnersPage page.
@@ -18,7 +19,7 @@ export class PartnersPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PartnersPagePage');
+    console.log(this.navCtrl.getActive().name);
   }
 
   partners : IExhibitor[] = [
@@ -29,11 +30,19 @@ export class PartnersPage {
       city: "Frankfurt",
       url: "http://deutsche-boerse.com/dbg-en/career",
       imageUrl: "assets/img/deutscheboerse.jpg"
+    },
+    {
+      name: "European Commission",
+      snippetUrl: "assets/snippets/europeancommission.html",
+      tagline: "",
+      city: "Brussels",
+      url: "http://ec.europa.eu/",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/en/8/84/European_Commission.svg"
     }
   ];
 
   goPartner(partner: IExhibitor){
-    this.navCtrl.push(PartnersOverviewPage, {partner: partner})
+    this.navCtrl.push(PartnerDetailPage, {partner: partner})
   }
 
 }
