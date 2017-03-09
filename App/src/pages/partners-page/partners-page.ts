@@ -38,6 +38,38 @@ export class PartnersPage {
       city: "Brussels",
       url: "http://ec.europa.eu/",
       imageUrl: "https://upload.wikimedia.org/wikipedia/en/8/84/European_Commission.svg"
+    },
+    {
+      name: "ESN Card",
+      snippetUrl: "assets/snippets/esncard.html",
+      tagline: "",
+      city: "Brussels",
+      url: "https://esncard.org/",
+      imageUrl: "assets/img/ESNcard.png"
+    },
+    {
+      name: "Social Erasmus",
+      snippetUrl: "assets/snippets/socialerasmus.html",
+      tagline: "Choose a Cause and Leave your Mark",
+      city: "Brussels",
+      url: "https://socialerasmus.esn.org/",
+      imageUrl: "assets/img/socialerasmus.png"
+    },
+    {
+      name: "Mov'in Europe",
+      snippetUrl: "assets/snippets/movineurope.html",
+      tagline: "",
+      city: "Brussels",
+      url: "https://movineurope.esn.org/",
+      imageUrl: "assets/img/MovinEurope.png"
+    },
+    {
+      name: "Responsible Party",
+      snippetUrl: "assets/snippets/responsibleparty.html",
+      tagline: "",
+      city: "Brussels",
+      url: "https://esn.org/responsible-party",
+      imageUrl: "assets/img/Responsible-Party-initials.png"
     }
   ];
 

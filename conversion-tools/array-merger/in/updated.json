@@ -1,0 +1,848 @@
+[
+  {
+    "code": "BA-SARA-ESN",
+    "url": "esn-bih.ba",
+    "name": "ESN Sarajevo",
+    "country": "BA",
+    "address": "ESN Hamdije Kapidžića 8 71000",
+    "city": "Sarajevo",
+    "university": "University of Sarajevo"
+  },
+  {
+    "code": "BE-BRUS-EHS",
+    "url": "http://www.esnkulbrussels.org/",
+    "name": "ESN KULBrussels",
+    "country": "BE",
+    "address": "ESN KUL Warmoesberg 26 1000",
+    "city": "Brussels",
+    "university": "University of Leuven"
+  },
+  {
+    "code": "BE-BRUS-HEC",
+    "url": "none (yet)",
+    "name": "ESN ICHEC",
+    "country": "BE",
+    "address": "ESN ICHEC Rue au Bois 365 1150",
+    "city": "Brussels",
+    "university": "ICHEC Brussels Management School"
+  },
+  {
+    "code": "BE-BRUS-SLU",
+    "url": "",
+    "name": "ESN- Saint Louis",
+    "country": "BE",
+    "address": "ESN- Saint Louis Boulevard du jardin botanique 43 1000",
+    "city": "Bruxelles",
+    "university": "Université Saint-Louis - Bruxelles"
+  },
+  {
+    "code": "BE-KORT-ESN",
+    "url": "http://www.esnleonardokortrijk.org/",
+    "name": "ESN Leonardo Kortrijk",
+    "country": "BE",
+    "address": "ESN Leonardo t.a.v. Evy Vansieleghem Doorniksesteenweg 145 8500",
+    "city": "Kortrijk",
+    "university": "VIVES University College Kortrijk"
+  },
+  {
+    "code": "BE-LIEG-ESN",
+    "url": "esnulg.org",
+    "name": "ESN ULg",
+    "country": "BE",
+    "address": "ESN ULg Place du 20-Août 24 4000",
+    "city": "Liege",
+    "university": "University of Liège"
+  },
+  {
+    "code": "BE-LIEG-HEP",
+    "url": "",
+    "name": "ESN HEPL",
+    "country": "BE",
+    "address": "Avenue Georges Truffaut 27/51 4020",
+    "city": "Liège",
+    "university": "Haute ecole de la province de Liege"
+  },
+  {
+    "code": "BE-MONS-ESN",
+    "url": "None yet",
+    "name": "ESN Mons",
+    "country": "BE",
+    "address": "ESN 19 Rue de la Poterie 7000",
+    "city": "Mons",
+    "university": "University of Mons "
+  },
+  {
+    "code": "BE-MONS-UCL",
+    "url": "",
+    "name": "ESN MONS'ters",
+    "country": "BE",
+    "address": "ESN Chaussée de binche 151 7000 7000",
+    "city": "Mons",
+    "university": "Université catholique de Louvain"
+  },
+  {
+    "code": "BG-BLAG-AUB",
+    "url": "none",
+    "name": "ESN AUBG",
+    "country": "BG",
+    "address": "ESN AUBG American University 2700",
+    "city": "Blagoevgrad",
+    "university": "American University in Bulgaria"
+  },
+  {
+    "code": "BG-RUSE-ESN",
+    "url": "",
+    "name": "ESN UR",
+    "country": "BG",
+    "address": "ESN UR International Cooperation and Mobility Department 8 Studentska street 7017",
+    "city": "Ruse",
+    "university": "\"Angel Kanchev\" University of Ruse"
+  },
+  {
+    "code": "BG-SOFI-CTM",
+    "url": "",
+    "name": "ESN UCTM",
+    "country": "BG",
+    "address": "ESN UCTM 1000",
+    "city": "Sofia",
+    "university": "University of Chemical Technology and Metallurgy"
+  },
+  {
+    "code": "BY-GROD-ESN",
+    "url": "http://en.grsu.by/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+    "name": "ESN YKSUG Grodno",
+    "country": "BY",
+    "address": "22-317a Ozheshko, 230023 ",
+    "city": "Grodno",
+    "university": "Yanka Kupala State University of Grodno"
+  },
+  {
+    "code": "CH-NEUC-ESN",
+    "url": "",
+    "name": "ESN Neuchâtel ",
+    "country": "CH",
+    "address": "ESN Avenue du Premier Mars 26 2000",
+    "city": "Neuchâtel",
+    "university": "Université de Neuchâtel"
+  },
+  {
+    "code": "CH-WINT-ESN",
+    "url": "/",
+    "name": "ESN Winterthur",
+    "country": "CH",
+    "address": "ESN Sara Dias Burgstrasse 89 8408",
+    "city": "Winterthur",
+    "university": "Zurich University of Applied Sciences"
+  },
+  {
+    "code": "CH-ZURI-ETH",
+    "url": "http://zurich.esn.ch/",
+    "name": "ESN Zurich ETH",
+    "country": "CH",
+    "address": "ESN CAB E 13 Universitätsstrasse 6 8001",
+    "city": "Zürich",
+    "university": "ETH Zurich"
+  },
+  {
+    "code": "CH-ZURI-UNI",
+    "url": "zurich.esn.ch",
+    "name": "ESN Zurich Uni",
+    "country": "CH",
+    "address": "ESN Zurich CAB E 13 Universitätsstrasse 6 8001",
+    "city": "Zürich",
+    "university": "University of Zurich"
+  },
+  {
+    "code": "DE-AUGS-ESN",
+    "url": "http://augsburg.esn-germany.de/",
+    "name": "ESN Augsburg",
+    "country": "DE",
+    "address": "ERASMUS Student Network ESN Auxchange e.V. Salomon-Idler-Straße 2 86159",
+    "city": "Augsburg ",
+    "university": "Universität Augsburg"
+  },
+  {
+    "code": "DE-BERL-ESN",
+    "url": "",
+    "name": "ESN Erasmix Medizin Berlin",
+    "country": "DE",
+    "address": "Lübecker Straße 52, 10559 Germany",
+    "city": "Berlin",
+    "university": "Charité - Universitätsmedizin Berlin"
+  },
+  {
+    "code": "DE-FREI-ESN",
+    "url": "",
+    "name": "ESN Freiburg",
+    "country": "DE",
+    "address": "Belfortstrasse 24, 79098 Germany",
+    "city": "Freiburg",
+    "university": "Pädagogische Hochschule Freiburg"
+  },
+  {
+    "code": "DE-MUNI-TUM",
+    "url": "http://www.international.tum.de/tumi",
+    "name": "ESN TUMi München",
+    "country": "DE",
+    "address": "ESN TUMi TUM International Center Arcisstr. 21 80333",
+    "city": "München",
+    "university": "Technische Universität München"
+  },
+  {
+    "code": "DK-KOLD-ESN",
+    "url": "",
+    "name": "ESN Kolding",
+    "country": "DK",
+    "address": "Alegarden 2-4 6000",
+    "city": "Kolding",
+    "university": "International Business Academy"
+  },
+  {
+    "code": "EE-TALL-ESN",
+    "url": "http://esn.ee/tallinn",
+    "name": "ESN Tallinn",
+    "country": "EE",
+    "address": "Raekoja Plats 16 3rd floor, 6* from downstairs 10146",
+    "city": "Tallinn ",
+    "university": ""
+  },
+  {
+    "code": "ES-CAST-ESN",
+    "url": "http://esncastellon.org/",
+    "name": "ESN Castellón",
+    "country": "ES",
+    "address": "Gema Porcar Igual C/ Sidro Vilarroig 54 12006 Castellón de la Plana (Castellón) ES",
+    "city": "Castellón de la Plana (Castellón)",
+    "university": "Universitat Jaume I"
+  },
+  {
+    "code": "ES-GIRO-ESN",
+    "url": "http://www.udg.edu/esngirona ",
+    "name": "ESN Girona",
+    "country": "ES",
+    "address": "C/ Maria Aurèlia Capmany i Farnés, 63-65, 17003 ",
+    "city": "Girona",
+    "university": "Universitat de Girona"
+  },
+  {
+    "code": "ES-PALM-ESN",
+    "url": "",
+    "name": "ESN Baleares",
+    "country": "ES",
+    "address": "ESN Baleares Universidad Islas Baleares. Cra. de Valldemossa, km 7.5. Palma (Illes Balears) 07122 Palma (Illes Balears) ES",
+    "city": "Palma (Illes Balears)",
+    "university": "Universitat de les Iles Baleares"
+  },
+  {
+    "code": "FR-BESA-AEI",
+    "url": "http://www.erasmus-besancon.com",
+    "name": "ESN Besançon",
+    "country": "FR",
+    "address": "ESN 30, rue Mégevand 25000",
+    "city": "Besançon",
+    "university": "Université de Franche Comté"
+  },
+  {
+    "code": "FR-BRET-TEL",
+    "url": "",
+    "name": "ESN Télécom Bretagne",
+    "country": "FR",
+    "address": "ESN Télécom Bretagne 655 Avenue du technopole 29280",
+    "city": "Plouzane",
+    "university": "Télécom Bretagne"
+  },
+  {
+    "code": "FR-CORT-ESN",
+    "url": "",
+    "name": "ASSOCIU ERASMUS DI A CORSICA",
+    "country": "FR",
+    "address": "ASSOCIU ERASMUS DI A CORSICA Pôle vie étudiante, bibliothèque universitaire 20250",
+    "city": "corte",
+    "university": "Università di Corsica"
+  },
+  {
+    "code": "FR-MANS-ESN",
+    "url": "lemans.ixesn.fr",
+    "name": "ESN Le Mans",
+    "country": "FR",
+    "address": "ESN Le Mans/ célestin bidois La bougaudière 53290",
+    "city": "grez-en-bouère",
+    "university": "Université du Maine"
+  },
+  {
+    "code": "FR-NANC-GLO",
+    "url": "",
+    "name": "ESN Globe and Co Nancy",
+    "country": "FR",
+    "address": "ESN Globe and Co 13 Rue Michel ney 54000",
+    "city": "Nancy",
+    "university": "ICN Business School"
+  },
+  {
+    "code": "FR-ORLE-ESN",
+    "url": "orleans.ixesn.fr",
+    "name": "ESN Orleans",
+    "country": "FR",
+    "address": "ESN Orleans Université d'Orléans, Maison de l'Etudiant rue de Tours 45072",
+    "city": "Orléans la Source",
+    "university": "Université d'Orléans"
+  },
+  {
+    "code": "FR-PARI-EDC",
+    "url": "",
+    "name": "ESN EDC",
+    "country": "FR",
+    "address": "Open Up EDC Paris Business School 70 Galerie des Damiers 92415",
+    "city": "Courbevoie",
+    "university": "EDC Paris Business School"
+  },
+  {
+    "code": "FR-POIT-ESN",
+    "url": "http://poitiers.ixesn.fr/",
+    "name": "ESN Poitiers",
+    "country": "FR",
+    "address": "ESN 10 rue Sylvain Drault 86000",
+    "city": "Poitiers",
+    "university": "Université de Poitiers"
+  },
+  {
+    "code": "FR-PROV-AIX",
+    "url": "aix.ix.fr",
+    "name": "ESN Aix-En-Provence",
+    "country": "FR",
+    "address": "ESN Aix-En-Provence 17 rue Jacques de la roque 13100",
+    "city": "Aix en Provence",
+    "university": "Aix-Marseille Université"
+  },
+  {
+    "code": "FR-REIM-ESN",
+    "url": "ereimsmus.eu",
+    "name": "ESN eREIMSmus ",
+    "country": "FR",
+    "address": "57 rue Pierre Taittinger Campus Croix-Rouge, BM 1-1 51100",
+    "city": "REIMS",
+    "university": "Université de Reims Champagne-Ardennes"
+  },
+  {
+    "code": "FR-SCEA-ESN",
+    "url": "",
+    "name": "ESN EPF",
+    "country": "FR",
+    "address": "ESN 3 bis rue Lakanal 92330",
+    "city": "Sceaux",
+    "university": "EPF Ecole d'Ingénieur"
+  },
+  {
+    "code": "FR-TOUR-ESN",
+    "url": "",
+    "name": "ESN Audicee Tours",
+    "country": "FR",
+    "address": "ESN Tours 60 Rue du plat d'Etain - BP12050 37020",
+    "city": "TOURS",
+    "university": "Université François Rabelais Tours"
+  },
+  {
+    "code": "FR-TROY-ESC",
+    "url": "",
+    "name": "ESN ESC Troyes",
+    "country": "FR",
+    "address": "ESN ESC Troyes 217 avenue Pierre Brossolette 10000",
+    "city": "Troyes ",
+    "university": "ESC Troyes"
+  },
+  {
+    "code": "FR-VALE-ESN",
+    "url": "",
+    "name": "ESN Valenciennes",
+    "country": "FR",
+    "address": "ESN Valenciennes 59300",
+    "city": "valenciennes",
+    "university": "Université de Valenciennes et du Hainaut-Cambrésis"
+  },
+  {
+    "code": "FR-VALE-INP",
+    "url": "http://valence.ixesn.fr/",
+    "name": "ESN VALENCE",
+    "country": "FR",
+    "address": "Inter'Val Maison de l'étudiant ,9 Place Latour-Maubourg, 26000 26000",
+    "city": "Valence",
+    "university": "Université Grenoble-Alpes"
+  },
+  {
+    "code": "GB-CARD-ESN",
+    "url": "cardiff.esnuk.org",
+    "name": "ESN Cardiff",
+    "country": "GB",
+    "address": "ESN Societies, University Students Union Park Place CF10 3QN",
+    "city": "Cardiff",
+    "university": "Cardiff University"
+  },
+  {
+    "code": "GB-EDIN-HER",
+    "url": "http://hw.esnuk.org/",
+    "name": "ESN Heriot-Watt",
+    "country": "GB",
+    "address": "55/9 Caledonian Crescent James Square Eh11 2AT",
+    "city": "Edinburgh",
+    "university": "Heriot Watt University"
+  },
+  {
+    "code": "GB-GLAS-CAL",
+    "url": "gcu.esnuk.org",
+    "name": "ESN GCU",
+    "country": "GB",
+    "address": "ESN GCU GCU Student's Association, 70 Cowcaddens Road G40BA",
+    "city": "Glasgow",
+    "university": "Glasgow Caedonian University"
+  },
+  {
+    "code": "GB-LEIC-DMU",
+    "url": "",
+    "name": "ESN DMU",
+    "country": "GB",
+    "address": "ESN DMU LE19BH",
+    "city": "Leicester",
+    "university": "De Montfort University Leicester"
+  },
+  {
+    "code": "GB-OXFO-BRO",
+    "url": "",
+    "name": "ESN Oxford Brookes",
+    "country": "GB",
+    "address": "ESN Brookes Brookes Union John Henry Brookes Building, Headington OX3 0BP",
+    "city": "Oxford",
+    "university": "Oxford Brookes University"
+  },
+  {
+    "code": "GE-TBIL-UNI",
+    "url": "",
+    "name": "ESN Tbilisi UNI ",
+    "country": "GE",
+    "address": "ESN UNI 3rd M/D of Didi Dighomi B14, Flat 52 0114",
+    "city": "Tbilisi",
+    "university": "Tbilisi State University"
+  },
+  {
+    "code": "GR-ATHE-HAR",
+    "url": "",
+    "name": "ESN HARO",
+    "country": "GR",
+    "address": "international office: Xarokopou 89, 3rd floor, office 3.1 HAROKOPIO UNIVERSITY El. Venizelou Ave, 70 GR 176 76 KALLITHEA",
+    "city": "Athens",
+    "university": "Harokopio University"
+  },
+  {
+    "code": "GR-CHAN-ESN",
+    "url": "http://tuc.esngreece.gr/",
+    "name": "ESN TUC",
+    "country": "GR",
+    "address": "ESN TUC Technical University of Crete Campus, Erasmus Office Kounoupidiana, Akrotiri 73100",
+    "city": "Chania",
+    "university": "Technical University of Crete"
+  },
+  {
+    "code": "GR-HERA-TEI",
+    "url": "",
+    "name": "ESN TEI of Crete",
+    "country": "GR",
+    "address": "gianni athitaki gianni kornarou 71410",
+    "city": "herakleion",
+    "university": "TechnicalInstitute of Crete"
+  },
+  {
+    "code": "GR-KOMO-ESN",
+    "url": "http://duth.esngreece.gr/",
+    "name": "ESN DUTH",
+    "country": "GR",
+    "address": "LEOFOROS VASILEWS PAVLOU 6 69100",
+    "city": "KOMOTINI",
+    "university": "Democritus University of Thrace"
+  },
+  {
+    "code": "GR-MYTI-ESN",
+    "url": "",
+    "name": "ESN Aegean",
+    "country": "GR",
+    "address": "ESN Aegean 81100",
+    "city": "Mytilene",
+    "university": "University of the Aegan"
+  },
+  {
+    "code": "HR-ZADA-ESN",
+    "url": "",
+    "name": "ESN Zadar",
+    "country": "HR",
+    "address": "ESN Mihovila Pavlinovića 1 23000",
+    "city": "Zadar",
+    "university": "University of Zadar"
+  },
+  {
+    "code": "HR-ZAGR-ESN",
+    "url": "",
+    "name": "ESN Zagreb",
+    "country": "HR",
+    "address": "ESN Ulica kralja Zvonimira 8 room 308c 10000",
+    "city": "Zagreb",
+    "university": "University of Zagreb"
+  },
+  {
+    "code": "HU-EGER-ESN",
+    "url": "eger.esn.hu",
+    "name": "ESN Eger",
+    "country": "HU",
+    "address": "Eszterházy tér 1. 3300",
+    "city": "Eger",
+    "university": "Esztrhazy Karoli University"
+  },
+  {
+    "code": "IT-MILA-STA",
+    "url": "http://www.esnmilanostatale.it/",
+    "name": "ESN Milano Statale",
+    "country": "IT",
+    "address": "ESN Milano Statale Via festa del perdono 7 20122",
+    "city": "milano",
+    "university": "Universita degli Studi di Milano"
+  },
+  {
+    "code": "IT-NOVA-ESN",
+    "url": "http://piemonteorientale.org/",
+    "name": "ESN Piemonte Orientale",
+    "country": "IT",
+    "address": "ESN Piemonte Orientale via Perrone 18 28100",
+    "city": "Novara",
+    "university": "Universita del Piemonte Orientale"
+  },
+  {
+    "code": "IT-POTE-ESN",
+    "url": "http://www.esnsuigenerisbas.it/",
+    "name": "ESN Sui-Generis Basilicata",
+    "country": "IT",
+    "address": "via dell'ateneo Lucano 10 85100",
+    "city": "Potenza",
+    "university": "Università degli Studi della Basilicata"
+  },
+  {
+    "code": "LI-VADU-ESN",
+    "url": "http://www.esn.li",
+    "name": "ESN University of Liechtenstein",
+    "country": "LI",
+    "address": "ESN University of Liechtenstein Fürst-Franz-Josef-Strasse 9490",
+    "city": "Vaduz",
+    "university": "Universität Liechtenstein"
+  },
+  {
+    "code": "LT-KAUN-KK1",
+    "url": "http://esnlithuania.org/sections/esn-kk",
+    "name": "ESN KK",
+    "country": "LT",
+    "address": "ESN KK Kaunas. Pramonės pr. 22 109 kab. 50387",
+    "city": "Kaunas ",
+    "university": "Kauno Kolegija/ University of Applied Sciences"
+  },
+  {
+    "code": "LT-KAUN-LSU",
+    "url": "",
+    "name": "ESN LSU",
+    "country": "LT",
+    "address": "ESN LSU Sporto g. 6 LT-44221",
+    "city": "Kaunas",
+    "university": "Lithuanian Sports University"
+  },
+  {
+    "code": "LT-KLAI-ESN",
+    "url": "",
+    "name": "ESN KUK",
+    "country": "LT",
+    "address": "Tarptautinių studijų skyrius Klaipėdos universitetas H. Manto - 84 LT-92294",
+    "city": "Klaipėda",
+    "university": "Klaipėda University"
+  },
+  {
+    "code": "LT-SUSA-ESN",
+    "url": "",
+    "name": "ESN ŠU",
+    "country": "LT",
+    "address": "ESN ŠU Dubijos st. 1B 77158",
+    "city": "Šiauliai",
+    "university": "Šiauliai Universit"
+  },
+  {
+    "code": "LT-VILN-LEU",
+    "url": "http://leu.lt/lt/esn-leu/esn-naujienos.html",
+    "name": "ESN LEU",
+    "country": "LT",
+    "address": "ESN LEU T. Ševčenkos 31 - 320 03111",
+    "city": "Vilnius",
+    "university": "Lithuanian University of Educational Sciences"
+  },
+  {
+    "code": "MK-SKOP-ESN",
+    "url": "",
+    "name": "ESN Skopje",
+    "country": "MK",
+    "address": "ESN Partizanski odredi 143/48 1000",
+    "city": "Skopje",
+    "university": "Ss. Cyril and Methodius University in Skopje"
+  },
+  {
+    "code": "MK-SKOP-UAC",
+    "url": "/",
+    "name": "ESN UACS",
+    "country": "MK",
+    "address": "Blvd. Treta makedonska brigada nr. 60 1000",
+    "city": "Skopje",
+    "university": "University American College Skopje"
+  },
+  {
+    "code": "NL-BRED-ESN",
+    "url": "http://www.esn-breda.nl",
+    "name": "ESN Breda",
+    "country": "NL",
+    "address": "ESN NHTV University of Applied Sciences Monseigneur Hopmansstraat 1 4814HV",
+    "city": "Breda",
+    "university": "NHTV Breda University of Applied Sciences"
+  },
+  {
+    "code": "NL-HAAR-ESN",
+    "url": "esnhaarlem.nl",
+    "name": "ESN INHolland Haarlem",
+    "country": "NL",
+    "address": "ESN INHolland Bijdorplaan 15 2015 CE",
+    "city": "Haarlem",
+    "university": "INHolland Haarlem"
+  },
+  {
+    "code": "NL-TILB-ESN",
+    "url": "http://www.iesntilburg.nl",
+    "name": "I*ESN Tilburg",
+    "country": "NL",
+    "address": "I*ESN Heuvelring 45 5038CJ",
+    "city": "Tilburg",
+    "university": "Tilburg University"
+  },
+  {
+    "code": "NO-STAV-ESN",
+    "url": "",
+    "name": "ESN Stavanger",
+    "country": "NO",
+    "address": "Universitetet i Postboks 8600 Forus Studentenes Hus ERASMUS STUDENT NETWORK STAVANGER 4036",
+    "city": "Stavanger",
+    "university": "University of Stavanger"
+  },
+  {
+    "code": "PL-GDYN-ESN",
+    "url": "",
+    "name": "ESN AM Gdynia",
+    "country": "PL",
+    "address": "Akademia Morska w Gdyni ESN AM ul. Morska 81-87, pok. B-113 81-225",
+    "city": "Gdynia",
+    "university": "Gdynia Maritime University"
+  },
+  {
+    "code": "PL-KATO-ESN",
+    "url": "",
+    "name": "ESN UŚ Katowice",
+    "country": "PL",
+    "address": "ESN UŚ Uniwersytet Śląski Dział Współpracy z Zagranicą ul. Bankowa 12 40-007",
+    "city": "Katowice",
+    "university": "University of Salesia in Katowice"
+  },
+  {
+    "code": "PL-KRAKO-ESN",
+    "url": "",
+    "name": "ESN ASP Kraków",
+    "country": "PL",
+    "address": "ESA ASP pl. Matejki 13 Poland ",
+    "city": "Kraków",
+    "university": "Akademia Sztuk Pieknych"
+  },
+  {
+    "code": "PL-OPOL-ESN",
+    "url": "",
+    "name": "ESN PO",
+    "country": "PL",
+    "address": "ESN PO ul. Mikołajczyka 14 45-271 2 piętro DS. \"Pryzma\" 45-271",
+    "city": "Opole",
+    "university": "Politechnika Opolska"
+  },
+  {
+    "code": "PL-POZN-WSB",
+    "url": "we dont have",
+    "name": "ESN WSB Poznań",
+    "country": "PL",
+    "address": "ESN WSB al. Niepodległości 2 CP building, room 200 61-874",
+    "city": "Poznań",
+    "university": "Wyższe Szkoły Bankowe w Poznan"
+  },
+  {
+    "code": "PL-WARS-SWP",
+    "url": "swps.esn.pl",
+    "name": "ESN SWPS Warsaw",
+    "country": "PL",
+    "address": "ul. Chodakowska 19/31 03-815",
+    "city": "Warsaw",
+    "university": "SWPS University of Social Sciences and Humanities"
+  },
+  {
+    "code": "PL-WROC-UE1",
+    "url": "http://uewroclaw.esn.pl/",
+    "name": "ESN UE Wroclaw",
+    "country": "PL",
+    "address": "ESN UE Komandorska Street 118/120 54-345",
+    "city": "Wroclaw",
+    "university": "Wrocław University of Economics"
+  },
+  {
+    "code": "PT-BRAG-ESN",
+    "url": "http://www.esnbraganca.org",
+    "name": "ESN Bragança",
+    "country": "PT",
+    "address": "International Relations Office Instituto Politécnico de 5300-253",
+    "city": "Bragança",
+    "university": "Instituto Politécnico de Bragança"
+  },
+  {
+    "code": "PT-CAST-ESN",
+    "url": "",
+    "name": "ESN Castelo Branco",
+    "country": "PT",
+    "address": "ESN Av.ª Pedro Álvares Cabral, nº 12 6000-084",
+    "city": "Castelo Branco",
+    "university": "Instituto Politécnico de Castelo Branco "
+  },
+  {
+    "code": "PT-TOMA-ESN",
+    "url": "",
+    "name": "ESN Tomar",
+    "country": "PT",
+    "address": "ESN Sala B116, Quinta do Contador, Estrada da Serra Instituto Politécnico de 2300-313",
+    "city": "Tomar",
+    "university": "Instituto Politécnico de Tomar"
+  },
+  {
+    "code": "RO-ALBA-ESN",
+    "url": "http://alba-iulia.esn.ro/",
+    "name": "ESN ALBA IULIA",
+    "country": "RO",
+    "address": "ESN ALBA IULIA Gabriel Bethlen street Nr.5, 510009",
+    "city": "Alba Iulia",
+    "university": "“1 Decembrie 1918” University of Alba Iulia"
+  },
+  {
+    "code": "RO-CONS-ESN",
+    "url": "http://esn.ro/constanta/",
+    "name": "ESN Constanta",
+    "country": "RO",
+    "address": "ESN Constanta Str. Ion Voda no. 58 900573",
+    "city": "Constanța",
+    "university": "Universitatea Ovidius din Constanta"
+  },
+  {
+    "code": "RO-SIBI-ESN",
+    "url": "sibiu.esn.ro",
+    "name": "ESN Sibiu",
+    "country": "RO",
+    "address": "Aleea Fratii Buzesti, bl 7, ap 18, jud. 2400",
+    "city": "Sibiu",
+    "university": "Universitatea Lucian Blaga din Sibiu"
+  },
+  {
+    "code": "RO_Baca_ESN",
+    "url": "",
+    "name": "ESN Bacău",
+    "country": "RO",
+    "address": ", Calea Mărășești",
+    "city": "Bacău",
+    "university": "Universitatea „Vasile Alecsandri” din Bacău"
+  },
+  {
+    "code": "RU-STPB-LTU",
+    "url": "http://sftu.esnrussia.org/",
+    "name": "ESN St Petersburg SFTU",
+    "country": "RU",
+    "address": "ESN St Petersburg SFTU Institutskiy pereulok 5 194021",
+    "city": " Saint-Petersburg",
+    "university": "Saint-Petersburg State Forest Technical University"
+  },
+  {
+    "code": "SE-SKOV-ESN",
+    "url": "esnskovde.org",
+    "name": "ESN Skövde",
+    "country": "SE",
+    "address": "Studentkåren i c/o Högskolan i Box 408 541 28",
+    "city": "Skövde",
+    "university": "University of Skövde"
+  },
+  {
+    "code": "SI-KOPE-PRI",
+    "url": "",
+    "name": "ESN Primorska",
+    "country": "SI",
+    "address": "ESN Primorska Cankarjeva 9a 6000",
+    "city": "Koper",
+    "university": "Fakulteta za humanistične študije"
+  },
+  {
+    "code": "SI-KRAN-ESN",
+    "url": "",
+    "name": "ESN Kranj",
+    "country": "SI",
+    "address": "ESN Kidričeva cesta 55a 4000",
+    "city": "Kranj",
+    "university": "Univerza v Mariboru"
+  },
+  {
+    "code": "SI-LJUB-ESN",
+    "url": "Esnljubljana.org",
+    "name": "ESN Ljubljana",
+    "country": "SI",
+    "address": "ŠOU v Ljubljani ESN Pivovarniška ulica 6 1000",
+    "city": "Ljubljana",
+    "university": "Študentska organizacija Univerze v Ljubljani"
+  },
+  {
+    "code": "SI-LJUB-FDV",
+    "url": "http://www.erasmusljubljana.si",
+    "name": "ESN Ljubljana University",
+    "country": "SI",
+    "address": "ESN University Fakulteta za družbene vede, Kardeljeva pl. 5 Študentska pisarna 1000",
+    "city": "Ljubljana",
+    "university": "Univerza v Ljubljani"
+  },
+  {
+    "code": "SI-MARI-SOU",
+    "url": "",
+    "name": "ESN SOUM",
+    "country": "SI",
+    "address": "ESN SOUM Gosposvetska cesta 83 2000",
+    "city": "Maribor",
+    "university": "Študentska organizacija Univerze v Mariboru"
+  },
+  {
+    "code": "SK-PRES-UNI",
+    "url": "",
+    "name": "ESN Presov",
+    "country": "SK",
+    "address": "ESN Presov Ul.17.novembra 15 Filozofická fakulta 08001",
+    "city": "Prešov",
+    "university": "Prešovská univerzita v Prešove"
+  },
+  {
+    "code": "TR-ESKI-ESN",
+    "url": "http://esogu.esnturkey.org/",
+    "name": "ESN ESOGÜ",
+    "country": "TR",
+    "address": "Büyükdere Mahallesi Gençlik Bulvarı 4/73 26048",
+    "city": "Eskişehir",
+    "university": "Eskisehir Osmangazi University"
+  },
+  {
+    "code": "TR-NISA-ESN",
+    "url": "",
+    "name": "ESN NİSANTASİ",
+    "country": "TR",
+    "address": "Hasbahce cad. no:88 Kağıthane ",
+    "city": "Istanbul",
+    "university": "NİŞANTAŞI UNIVERSITY"
+  }
+]

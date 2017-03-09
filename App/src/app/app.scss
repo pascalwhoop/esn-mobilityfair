@@ -101,11 +101,29 @@ $fb-border: rgba(0, 0, 0, 0.2);
   }
 }
 
-/*fix for ios*/
-@media (max-width: 476px) {
-  ion-row[wrap] {
-    ion-col {
-      flex-basis: 100%;
+
+@media (max-width: 768px) {
+  ion-content.content-ios{
+    ion-row[wrap] {
+      ion-col {
+        flex-basis: 50%;
+      }
     }
   }
 }
+/*fix for ios*/
+@media (max-width: 476px) {
+  ion-content.content-ios{
+    ion-row[wrap] {
+      display: block;
+      ion-col {
+        flex-basis: 100%;
+        display: block;
+      }
+    }
+  }
+}
+
+
+
+

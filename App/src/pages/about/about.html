@@ -39,16 +39,10 @@
 
     <ion-row responsive-sm>
         <ion-col>
-            <ion-card class="image-card" (click)="goWhyExhibitor()">
-                <img src="assets/img/exhibitors.jpg"/>
-            </ion-card>
+            <nav-img-card [imgUrl]="'assets/img/exhibitors.jpg'" [cardText]="'For Exhibitors'" [navPush]="targets.whyexhibitors"></nav-img-card>
         </ion-col>
         <ion-col>
-
-            <ion-card class="image-card" (click)="goWhyStudent()">
-                <img src="assets/img/visitors.jpg"/>
-                <!---->
-            </ion-card>
+            <nav-img-card [imgUrl]="'assets/img/visitors.jpg'" [cardText]="'For Visitors'" [navPush]="targets.whystudents" [color]="'#f57b20'"></nav-img-card>
         </ion-col>
     </ion-row>
 

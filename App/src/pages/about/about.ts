@@ -17,20 +17,15 @@ import {WhyStudentsPage} from "../why-students/why-students";
 })
 export class AboutPage {
 
+  targets = {
+    whyexhibitors : WhyExhibitorsPage,
+    whystudents: WhyStudentsPage
+  }
 
   constructor(public navCtrl: NavController, public http: Http,public app: App) {
     this.app._setRootNav(this.navCtrl)
   }
 
-
-  goWhyExhibitor(){
-    this.navCtrl.push(WhyExhibitorsPage)
-    
-  }
-
-  goWhyStudent(){
-    this.navCtrl.push(WhyStudentsPage)
-  }
   
 
 }

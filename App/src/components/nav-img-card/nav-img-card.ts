@@ -17,6 +17,8 @@ export class NavImgCardComponent {
   imgUrl: string;
   @Input()
   cardText: string;
+  @Input()
+  color: string;
 
   constructor(public navCtrl: NavController) {
   }
