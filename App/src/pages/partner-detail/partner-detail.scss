@@ -1,5 +1,10 @@
 page-partner-detail {
   .partner-overview-card{
+    .partner-logo{
+      margin: auto;
+      width: 60%;
+    }
+
     text-align: left;
 
     .injectedHTML {
@@ -11,6 +16,9 @@ page-partner-detail {
 
 
   @media (min-width: 767px) {
+    .partner-logo{
+      width: 200px;
+    }
     ion-card.card-md{
       margin-top: 50px;
     }
@@ -19,6 +27,9 @@ page-partner-detail {
     }
   }
   @media (min-width: 960px) {
+    .partner-logo{
+      width: 300px;
+    }
     ion-card.card-md{
       margin-top: 80px;
     }

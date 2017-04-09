@@ -15,6 +15,7 @@
 
     <ion-card class="partner-overview-card">
         <ion-card-content>
+            <img [src]="partner.imageUrl" alt="" class="partner-logo">
             <ion-card-title>
                 <span>{{partner.name}}</span>
             </ion-card-title>
@@ -32,7 +33,7 @@
                 <h4>Facts:</h4>
                 <ul>
                     <li><strong>Location: </strong>{{partner.city}}</li>
-                    <li><strong>Website: </strong><a href="http://deutsche-boerse.com/dbg-en/career" target="_blank">deutsche-boerse.com/dbg-en/career</a>
+		    <li><strong>Website: </strong><a href="{{partner.url}}" target="_blank">{{partner.url}}</a>
                     </li>
                 </ul>
             </div>
