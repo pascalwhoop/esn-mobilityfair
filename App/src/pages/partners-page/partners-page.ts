@@ -58,7 +58,6 @@ export class PartnersPage {
         },
         {
             name: "ESNcard",
-            snippetUrl: "assets/snippets/esncard.html",
             tagline: "",
             city: "Brussels",
             url: "https://esncard.org/",
@@ -88,7 +87,6 @@ export class PartnersPage {
             url: "https://esn.org/responsible-party",
             imageUrl: "assets/img/Responsible-Party-initials.png"
         },
-        //new ones
         {
             name: "Arbeitsgruppe Wirtschaftsingenieure e.V.",
             snippetUrl: "assets/snippets/ag_win.html",
@@ -130,7 +128,7 @@ export class PartnersPage {
             imageUrl: "assets/img/ems_logo.png"
         },
         {
-            name: "Techniker Krankenkasse",
+            name: "Techniker Krankenkasse",            //todo link to website
             tagline: "",
             city: "Hamburg",
             url: "https://www.tk.de/",
@@ -138,7 +136,7 @@ export class PartnersPage {
 
         },
         {
-            name: "Dr Walter",
+            name: "Dr Walter",                       //todo link to website
             tagline: "",
             city: "Neunkirchen-Seelscheid",
             url: "http://www.dr-walter.com/",
@@ -147,54 +145,103 @@ export class PartnersPage {
         },
         {
             name: "InterExchange",
+            snippetUrl: "assets/snippets/interexchange.html",
             tagline: "Uniting People Through International Exchange",
             city: "",
             url: "https://www.interexchange.org/",
             imageUrl: "assets/img/interexchange.png"
 
-        },{
+        }, {
             name: "Hawkers",
+            snippetUrl: "assets/snippets/hawkers.html",
             tagline: "",
             city: "",
             url: "https://www.hawkersco.com/",
             imageUrl: "assets/img/hawkers.jpg"
 
-        },{
+        }, {
             name: "Morgan McKinley",
             tagline: "",
+            snippetUrl: "assets/snippets/morganmckinley.html",
             city: "",
             url: "https://www.morganmckinley.com/",
             imageUrl: "assets/img/Morgan.jpg"
 
-        },{
+        }, {
             name: "Accenture",
+            snippetUrl: "assets/snippets/accenture.html",
             tagline: "",
             city: "",
             url: "https://www.accenture.com/de-de/new-applied-now",
             imageUrl: "http://insuranceblog.accenture.com/wp-content/uploads/2016/02/Accenture-Logo-Big.jpg"
-        },{
+        }, {
             name: "Hostelling International",
             snippetUrl: "assets/snippets/hostelling.html",
             tagline: "",
             city: "",
             url: "https://www.hihostels.com/de",
             imageUrl: "assets/img/hostelling.png"
-        },{
+        }, {
             name: "uniplaces",
             snippetUrl: "assets/snippets/uniplaces.html",
             tagline: "",
             city: "",
             url: "https://www.uniplaces.com/de/",
             imageUrl: "assets/img/uniplaces.png"
-        },{
+        }, {
             name: "A&O Hostels",
-            tagline: "",
+            tagline: "",                                           //todo link to website
             city: "",
             url: "https://www.aohostels.com/de/",
             imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/AO_Standard_Logo.svg/1200px-AO_Standard_Logo.svg.png"
+        },
+        {
+            name: "Magoo International",
+            tagline: "Die Welt erwartet dich!",
+            city: "",
+            snippetUrl: "assets/snippets/magoo.html",
+            url: "http://www.magoo-international.com/",
+            imageUrl: "assets/img/magoo.jpg"
+        },
+        {
+            name: "Europeers",
+            tagline: "",                                 //todo link to website
+            city: "",
+            url: "https://www.europeers.de/",
+            imageUrl: "assets/img/europeers.svg"
+        },
+        {
+            name: "ELSA",
+            tagline: "The European Law Students' Association",   //todo link to website
+            city: "",
+            url: "https://www.elsa-germany.org/de/startseite/",
+            imageUrl: "assets/img/elsa.png"
+        },
+        {
+            name: "Exchange Ability",
+            tagline: "",
+            city: "",
+            url: "https://exchangeability.esn.org/",              //todo link to website
+            imageUrl: "assets/img/exchangeability.png"
+        },
+        {
+            name: "UNi-Gruppe",
+            tagline: "",
+            city: "",
+            snippetUrl: "assets/snippets/unigruppe.html",
+            url: "www.uni-gruppe.de",
+            imageUrl: "assets/img/unigruppe.jpg"
         }
-    ].sort( (a,b) =>{
-        return a.name>b.name? 1 : a.name<b.name ? -1 : 0;
+        // ,
+        // {
+        //     name: "EUF University",
+        //     tagline: "",
+        //     city: "",
+        //     url: "https://www.uni-flensburg.de/",
+        //     imageUrl: "assets/img/euf.jpg"
+        // }
+    ].sort((a, b) => {
+        return a.name > b.name ? 1 : a.name < b.name ? -1 : 0;
     });
 
     goPartner(partner: IExhibitor) {

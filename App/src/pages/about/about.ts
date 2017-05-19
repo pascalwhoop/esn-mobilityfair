@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import {NavController, NavParams, App} from "ionic-angular";
+import {App, NavController} from "ionic-angular";
 import {Http} from "@angular/http";
 import "rxjs/Rx";
 import {WhyExhibitorsPage} from "../why-exhibitors/why-exhibitors";

@@ -20,7 +20,7 @@
     <ion-row wrap justify-content-start no-padding>
         <ion-col *ngFor="let partner of partners" col-12 col-sm-6 col-md-4 col-lg-4>
             <ion-card class="partner-card">
-                <div class="partner-logo-container">
+                <div class="speaker-logo-container">
                     <img [src]="partner.imageUrl" (click)="goPartner(partner)" />
                 </div>
                 <ion-card-content>
@@ -35,10 +35,13 @@
                 </ion-card-content>
                 <ion-row no-padding>
                     <ion-col>
-                        <button ion-button small clear (click)="goPartner(partner)" icon-right>
+                        <button *ngIf="partner.snippetUrl" ion-button small clear (click)="goPartner(partner)" icon-right>
                             More
-                            <ion-icon name="open"></ion-icon>
+                            <ion-icon name="information-circle"></ion-icon>
                         </button>
+                        <a *ngIf="!partner.snippetUrl" ion-button small clear icon-right href="{{partner.url}}" target="_blank">More
+                            <ion-icon name="open"></ion-icon>
+                        </a>
                     </ion-col>
                 </ion-row>
             </ion-card>

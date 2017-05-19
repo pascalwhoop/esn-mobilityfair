@@ -4,6 +4,7 @@ import {WhyStudentsPage} from "../../pages/why-students/why-students";
 import {PartnersPage} from "../../pages/partners-page/partners-page";
 import {UniversitiesOverviewPage} from "../../pages/universities-overview/universities-overview";
 import {NavController} from "ionic-angular";
+import {SpeakersPage} from "../../pages/speakers/speakers";
 
 /*
   Generated class for the MobileNavbar component.
@@ -35,6 +36,11 @@ export class MobileNavbarComponent {
 
   goWhyStudent(){
     this.navCtrl.push(WhyStudentsPage);
+    this.menuToggle = false;
+  }
+
+  goSpeakers(){
+    this.navCtrl.push(SpeakersPage);
     this.menuToggle = false;
   }
 

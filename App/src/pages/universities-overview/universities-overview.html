@@ -12,6 +12,11 @@
 
 
 <ion-content>
+
+    <h1>
+        <span>{{"Represented Universities"|trans}}</span>
+    </h1>
+
     <ion-row wrap>
         <ion-col *ngFor="let country of (sectionsPerCountry | ota)" class="country-shape-col">
             <ion-card class="country-shape-card" (click)="goCountry(country)" padding>

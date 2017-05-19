@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
-import {Observable, BehaviorSubject} from "rxjs";
+import {BehaviorSubject, Observable} from "rxjs";
 
 /*
  Generated class for the UiTextProvider provider.

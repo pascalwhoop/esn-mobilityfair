@@ -1,6 +1,6 @@
-import {Component, ChangeDetectorRef} from "@angular/core";
+import {ChangeDetectorRef, Component} from "@angular/core";
 import {Platform} from "ionic-angular";
-import {StatusBar, Splashscreen} from "ionic-native";
+import {Splashscreen, StatusBar} from "ionic-native";
 import {UiTextProvider} from "../providers/ui-text-provider";
 import {AboutPage} from "../pages/about/about";
 

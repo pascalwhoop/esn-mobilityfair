@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import {NavController, NavParams, ModalController} from "ionic-angular";
+import {ModalController, NavController, NavParams} from "ionic-angular";
 import {IExhibitor} from "../../model/IExhibitor";
 import {Http} from "@angular/http";
 import {CountryModalPage} from "../country-modal/country-modal";

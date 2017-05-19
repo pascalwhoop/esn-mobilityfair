@@ -1,5 +1,5 @@
-import {NgModule, ErrorHandler} from "@angular/core";
-import {IonicApp, IonicModule, IonicErrorHandler} from "ionic-angular";
+import {ErrorHandler, NgModule} from "@angular/core";
+import {IonicApp, IonicErrorHandler, IonicModule} from "ionic-angular";
 import {MyApp} from "./app.component";
 import {AboutPage} from "../pages/about/about";
 import {ProgramPage} from "../pages/program/program";
@@ -21,6 +21,7 @@ import {CountryModalPage} from "../pages/country-modal/country-modal";
 import {UniversityDetailPage} from "../pages/university-detail/university-detail";
 import {NavImgCardComponent} from "../components/nav-img-card/nav-img-card";
 import {PartnerDetailPage} from "../pages/partner-detail/partner-detail";
+import {SpeakersPage} from "../pages/speakers/speakers";
 
 @NgModule({
     declarations: [
@@ -39,6 +40,7 @@ import {PartnerDetailPage} from "../pages/partner-detail/partner-detail";
         UniversityDetailPage,
         PartnersPage,
         UniversitiesOverviewPage,
+        SpeakersPage,
         WhyStudentsPage,
         DirectionsCardComponent,
         NavImgCardComponent,
@@ -58,6 +60,7 @@ import {PartnerDetailPage} from "../pages/partner-detail/partner-detail";
                     {component: WhyExhibitorsPage, name: "WhyExhibitors", segment: "why-exhibitors", defaultHistory: [AboutPage]},
                     {component: PartnersPage, name: "Partners", segment: "partners", defaultHistory: [AboutPage]},
                     {component: PartnerDetailPage, name: "PartnerDetail", segment: "detail/:partnerId", defaultHistory: [AboutPage]},
+                    {component: SpeakersPage, name: "Speakers", segment: "speakers", defaultHistory: [AboutPage]},
 
                 ]
             })
@@ -69,6 +72,7 @@ import {PartnerDetailPage} from "../pages/partner-detail/partner-detail";
         ProgramPage,
         PartnerDetailPage,
         UniversityDetailPage,
+        SpeakersPage,
         PartnersPage,
         UniversitiesOverviewPage,
         CountryModalPage,

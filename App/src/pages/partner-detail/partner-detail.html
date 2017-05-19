@@ -20,24 +20,14 @@
                 <span>{{partner.name}}</span>
             </ion-card-title>
 
-            <div class="injectedHTML" [innerHTML]="snippet" *ngIf="snippet && partner.snippetUrl"></div>
+            <div class="injectedHTML" [innerHTML]="snippet" *ngIf="snippet"></div>
 
-            <div *ngIf="!partner.snippetUrl">
-                <p>
-                    <strong>{{partner.tagline}}</strong>
-                </p>
-                <p>
-                    <span>{{partner.description}}</span>
-                </p>
+            <a ion-button small clear icon-right href="{{partner.url}}" target="_blank">Partner Website
+                <ion-icon name="open"></ion-icon>
+            </a>
 
-                <h4>Facts:</h4>
-                <ul>
-                    <li><strong>Location: </strong>{{partner.city}}</li>
-		    <li><strong>Website: </strong><a href="{{partner.url}}" target="_blank">{{partner.url}}</a>
-                    </li>
-                </ul>
-            </div>
         </ion-card-content>
+
     </ion-card>
 
 

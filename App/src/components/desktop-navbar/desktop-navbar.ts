@@ -5,6 +5,7 @@ import {WhyExhibitorsPage} from "../../pages/why-exhibitors/why-exhibitors";
 import {PartnersPage} from "../../pages/partners-page/partners-page";
 import {UniversitiesOverviewPage} from "../../pages/universities-overview/universities-overview";
 import {AboutPage} from "../../pages/about/about";
+import {SpeakersPage} from "../../pages/speakers/speakers";
 
 /*
   Generated class for the DesktopNavbar component.
@@ -34,6 +35,10 @@ export class DesktopNavbarComponent {
 
   goWhyExhibitor(){
     this.navCtrl.push(WhyExhibitorsPage)
+  }
+
+  goSpeakers(){
+    this.navCtrl.push(SpeakersPage)
   }
 
   goWhyStudent(){

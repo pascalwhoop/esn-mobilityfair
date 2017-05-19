@@ -1,7 +1,6 @@
 import {Component} from "@angular/core";
-import {NavController, NavParams, App, DeepLinker} from "ionic-angular";
+import {App, DeepLinker, NavController, NavParams} from "ionic-angular";
 import {UniversitiesOverviewPage} from "../universities-overview/universities-overview";
-import {MyApp} from "../../app/app.component";
 import {PartnersPage} from "../partners-page/partners-page";
 
 /*
